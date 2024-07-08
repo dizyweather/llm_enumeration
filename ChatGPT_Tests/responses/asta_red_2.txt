@@ -1,0 +1,79 @@
+Time: 2024-07-03 21:31:12.513529
+Question: What items are in this image?
+Response: 
+{
+The image shows various types of pasta on shelves in a store. The items include:
+
+- **American Beauty Spaghetti** (top shelf, red packaging)
+- **Kroger 100% Whole Grain Pasta** (middle shelf, black and yellow boxes)
+- **Barilla Protein+ Spaghetti** (bottom shelf, yellow packaging with blue labels)
+- **Barilla Gluten-Free Rotini** (bottom shelf, blue and yellow boxes)
+
+Additionally, there are price tags and sale signs indicating the prices and discounts for some of these items.
+}
+
+
+
+Time: 2024-07-04 12:11:34.001703
+Question: What items are in this image?
+Response:   
+{
+The image shows various types of pasta products on supermarket shelves, including:
+
+1. **American Beauty Spaghetti** (in red packaging)
+2. **Kroger 100% Whole Grain Pasta** (in black packaging)
+3. **Barilla Protein+ Spaghetti** (in yellow packaging)
+4. **Barilla Gluten Free Pasta** (in blue packaging)
+
+Additionally, there are price tags and sale signs displayed.
+}
+
+
+
+Time: 2024-07-04 12:22:13.873353
+Question: What items are in this image?
+Response: 
+{
+The image shows various types of pasta on grocery store shelves. Here are the items visible in the image:
+
+1. American Beauty Spaghetti (red packaging)
+2. Kroger 100% Whole Grain pasta
+3. Barilla Protein+ pasta
+4. Barilla Gluten Free pasta
+
+The prices for some of these items are also visible on sale tags.
+}
+
+
+
+Time: 2024-07-04 18:09:52.492815
+Question: What items are in this image?
+Response: 
+{
+The image depicts shelves at a grocery store containing different types of pasta. The items include:
+
+1. American Beauty spaghetti in red packaging.
+2. Whole grain pasta in black boxes.
+3. Barilla Protein+ pasta in yellow boxes.
+4. Gluten-free pasta in green boxes.
+5. Several pasta price tags indicating various sales and promotions.
+}
+
+
+
+Time: 2024-07-04 19:09:06.173928
+Question: What items are in this image?
+Response: 
+{
+The image displays shelves in a grocery store stocked with various types of pasta. Specific items include:
+
+1. American Beauty Spaghetti (in red packaging)
+2. Kroger 100% Whole Grain Pasta (in black and gold packaging)
+3. Barilla Protein+ Spaghetti (in yellow and blue packaging)
+4. Full Circle Market Gluten-Free Brown Rice Pasta (light blue packaging at the bottom right)
+
+The price tags and promotional sale signs for these items are also visible.
+}
+
+
+

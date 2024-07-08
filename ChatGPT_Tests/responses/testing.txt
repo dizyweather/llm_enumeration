@@ -1,0 +1,15 @@
+pasta_blue
+pasta_blue_2
+pasta_green
+pasta_red
+pasta_red_2
+pasta_angled
+pasta_asile
+pasta_asile_med
+pasta_asile_tall1
+pasta_asile_tall2
+fruit_close
+fruit_far
+lemon_lime
+tomato_avocado
+vegtables_close

@@ -1,0 +1,67 @@
+Time: 2024-07-03 21:32:43.397795
+Question: What items are in this image?
+Response: 
+{
+The image shows a produce section in a grocery store containing the following items:
+
+1. Lemons (labeled as 89 cents each)
+2. Limes (labeled as 2 for 1 dollar)
+3. Oranges (partially visible on the sides)
+}
+
+
+
+Time: 2024-07-04 12:13:11.163794
+Question: What items are in this image?
+Response: 
+{
+The image features three types of citrus fruits, arranged in separate sections. From left to right, they are:
+
+1. Oranges
+2. Lemons
+3. Limes
+}
+
+
+
+Time: 2024-07-04 12:23:47.056141
+Question: What items are in this image?
+Response: 
+{
+The image shows a display of various fruits in a market or grocery store. Specifically, it features:
+
+1. Oranges (left and right sections)
+2. Lemons (middle left section)
+3. Limes (middle right section)
+}
+
+
+
+Time: 2024-07-04 18:11:31.879198
+Question: What items are in this image?
+Response: 
+{
+The image shows three types of citrus fruits displayed in a grocery store:
+
+1. Oranges (on the left and right ends).
+2. Lemons (in the middle left section).
+3. Limes (in the middle right section).
+}
+
+
+
+Time: 2024-07-04 19:10:29.158969
+Question: What items are in this image?
+Response: 
+{
+The image shows three different types of fruits arranged in a market produce section. They are:
+
+1. Lemons (yellow)
+2. Limes (green)
+3. Oranges (also visible in the background)
+
+The prices for lemons and limes are also indicated.
+}
+
+
+

@@ -1,0 +1,148 @@
+Time: 2024-07-08 13:04:12.159517
+File: ChatGPT_Tests\images\produce\lemon_lime
+Question: What items are in the image? Ignore branding. Return answers in the form of words seperated by new lines
+Response: 
+{
+Oranges  
+Lemons  
+Limes
+}
+
+
+
+Time: 2024-07-08 13:03:37.632243
+File: ChatGPT_Tests\images\produce\avocado
+Question: What items are in the image? Ignore branding. Return answers in the form of words seperated by new lines
+Response: 
+{
+avocados
+}
+
+
+
+Time: 2024-07-06 22:29:41.442705
+File: ChatGPT_Tests\images\produce\avocado
+Question: What items are in the image and how many of each are there? (Only count items you can fully see)
+Response: 
+{
+There are three fully visible avocados in the image.
+}
+
+
+
+Time: 2024-07-06 22:29:38.203973
+File: ChatGPT_Tests\images\produce\avocado
+Question: What items are in the image and how many of each are there? (Only count items you can fully see)
+Response: 
+{
+The image contains 4 fully visible avocados.
+}
+
+
+
+Time: 2024-07-06 22:29:17.902904
+File: ChatGPT_Tests\images\produce\avocado
+Question: What items are in the image and how many of each are there? (Only count items you can fully see)
+Response: 
+{
+The image shows avocados. There are 4 fully visible avocados.
+}
+
+
+
+Time: 2024-07-06 22:28:25.053309
+File: ChatGPT_Tests\images\produce\avocado
+Question: What items are in the image and how many of each item?
+Response: 
+{
+The image contains 11 avocados piled together.
+}
+
+
+
+Time: 2024-07-06 22:22:15.427659
+File: ChatGPT_Tests\images\produce\fruit_far
+Question: What items are in the foreground of this image?
+Response: 
+{
+The foreground of the image contains various types of fruits displayed in wooden bins. From left to right, these fruits include:
+
+1. Pluots (labeled at $2.99)
+2. Peaches (labeled at $3.99)
+3. Nectarines (labeled at $2.69)
+4. Another type of red fruits that looks similar to nectarines (labeled at $2.99)
+5. Grapefruits (labeled at $0.99 each)
+6. Lemons (labeled at $0.50 each)
+
+Additionally, there are banners on the wooden bins with the text "LOCAL FARMS" and "COLORADO PROUD." The banners also include images of local farmers.
+}
+
+
+
+Time: 2024-07-06 22:19:55.355632
+File: ChatGPT_Tests\images\produce\fruit_far
+Question: What items are in the foreground of this image?
+Response: 
+{
+In the foreground of the image, there are various types of fruits displayed in bins. From left to right, these fruits include:
+
+1. Red plums ($2.99/lb)
+2. Black plums ($3.99/lb)
+3. Yellow nectarines ($3.99/lb)
+4. White nectarines ($2.69/lb)
+5. Red apples ($2.99/lb)
+6. Grapefruits ($0.99/lb)
+7. Lemons ($0.50/lb)
+
+Below the bins, there are signs displaying text such as "LOCAL FARMS" and "COLORADO PROUD" along with images related to local farms.
+}
+
+
+
+Time: 2024-07-06 22:18:50.089462
+File: ChatGPT_Tests\images\produce\fruit_far
+Question: What items are in this image? Ignore objects in the background.
+Response: 
+{
+The items at the forefront of the image are various fruits, including:
+
+- Red and green apples
+- Peaches or nectarines
+- Grapefruit
+- Lemons
+}
+
+
+
+Time: 2024-07-06 22:17:36.125581
+File: ChatGPT_Tests\images\pasta\close\pasta_blue
+Question: What items are in this image?
+Response: 
+{
+The image shows a store shelf stocked with various types of De Cecco pasta. Specifically, the following items are visible:
+
+- De Cecco Rotelle no. 54
+- De Cecco Farfalle no. 93
+- De Cecco Spaghetti no. 12
+
+The pasta boxes are marked "Slow dried" for Rotelle and "Bronze drawn, Slow drying" for Farfalle and Spaghetti, for superior quality. Each box weighs 1 lb (455 g). Signs in the image indicate that there is a sale price of $2.79 for these items, reduced from $3.19.
+}
+
+
+
+Time: 2024-07-06 22:16:31.226837
+File: ChatGPT_Tests\images\pasta\close\pasta_blue_2
+Question: What items are in this image?
+Response: 
+{
+The image shows various types of pasta on grocery store shelves. Specifically:
+
+1. **De Cecco Pasta (top shelves)**: Various types of pasta including Spaghetti No. 12, Spaghetti No. 11, and Thin Spaghetti No. 9. These products are in blue and yellow packaging.
+  
+2. **Rummo Pasta (bottom shelves)**: Various pasta types packaged in white and red bags, including Angel Hair No. 1 and Spaghetti No. 3.
+
+The items are placed on sale with a price tag displayed.
+}
+
+
+

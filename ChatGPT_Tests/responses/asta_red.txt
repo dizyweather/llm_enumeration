@@ -1,0 +1,76 @@
+Time: 2024-07-03 21:31:03.758997
+Question: What items are in this image?
+Response: 
+{
+The image shows bags of pasta from the brand "American Beauty." The varieties of pasta include:
+
+1. Small Shells
+2. Large Elbows
+3. Spaghetti
+4. Elbow Macaroni
+
+Additionally, there are sale signs indicating price reductions for some of these items.
+}
+
+
+
+Time: 2024-07-04 12:11:24.888423
+Question: What items are in this image?
+Response: 
+{
+This image shows various types of pasta on a grocery store shelf. The items are:
+
+- Small Shells
+- Large Elbows
+- Spaghetti
+- Elbow Macaroni 
+
+All of these items are packaged under the "American Beauty" brand and are displayed with price tags and sale signs.
+}
+
+
+
+Time: 2024-07-04 12:22:05.194871
+Question: What items are in this image?
+Response: 
+{
+This image shows grocery store shelves filled with various types of pasta from the brand "American Beauty." The items include:
+
+1. Small Shells
+2. Large Elbows
+3. Spaghetti
+
+There are price tags indicating different sale prices for these pasta types.
+}
+
+
+
+Time: 2024-07-04 18:09:43.727517
+Question: What items are in this image?
+Response: 
+{
+The image shows a variety of packaged pasta products from the brand "American Beauty." The specific types of pasta visible include:
+
+1. Small Shells
+2. Large Elbows
+3. Spaghetti
+
+Additionally, there are sale prices and discount information displayed on the price tags.
+}
+
+
+
+Time: 2024-07-04 19:08:58.306822
+Question: What items are in this image?
+Response: 
+{
+The image shows a grocery store shelf filled with various types of pasta from the brand "American Beauty." The specific types of pasta visible include:
+
+- Small Shells
+- Large Elbows
+- Spaghetti
+- Elbow Macaroni
+}
+
+
+

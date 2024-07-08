@@ -1,0 +1,90 @@
+Time: 2024-07-03 21:32:34.231014
+Question: What items are in this image?
+Response: 
+{
+The image depicts a grocery store produce section with various fruits on display. Specifically, the items include:
+
+1. Red apples
+2. Green apples
+3. Peaches
+4. Plums
+5. Grapefruits
+6. Lemons 
+
+The display features a sign indicating "Local Farms" and "Colorado Proud."
+}
+
+
+
+Time: 2024-07-04 12:13:01.766381
+Question: What items are in this image?
+Response: 
+{
+The image depicts a produce section in a grocery store. The items visible in the image include:
+
+- Red apples
+- Golden apples
+- Grapefruit
+- Peaches
+- Nectarines
+- Lemons 
+- Plums 
+
+There are also various other fruits and vegetables in the background, along with signs promoting local farms.
+}
+
+
+
+Time: 2024-07-04 12:23:37.072493
+Question: What items are in this image?
+Response: 
+{
+The image displays a variety of fruits in a grocery store. The items visible include:
+
+1. Plums
+2. Nectarines
+3. Peaches
+4. Apples (red and yellow varieties)
+5. Oranges
+6. Lemons
+7. Grapefruits
+
+Additionally, there are signs indicating that these items are from local farms in Colorado.
+}
+
+
+
+Time: 2024-07-04 18:11:19.524701
+Question: What items are in this image?
+Response: 
+{
+The image depicts a variety of fruits displayed in a grocery store. Specifically, it includes:
+
+- Plums
+- Nectarines
+- Peaches
+- Grapefruit
+- Lemons
+
+There are also signs indicating that these items are from local farms, specifically from Colorado.
+}
+
+
+
+Time: 2024-07-04 19:10:20.361251
+Question: What items are in this image?
+Response: 
+{
+The image shows a variety of fruits displayed in a grocery store. The items include:
+
+1. Red apples
+2. Yellow apples
+3. Nectarines
+4. Peaches
+5. Grapefruits
+6. Lemons
+7. Plums
+}
+
+
+
