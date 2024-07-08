@@ -1,3 +1,43 @@
+Time: 2024-07-08 15:42:13.002132
+File: C:\Users\geodz\OneDrive\Documents\Coding\School Projects\CU Boulder\Correl Lab\llm_enumeration\ChatGPT_Tests/images/pasta/close/pasta_green
+Question: What items are in the image? Include the item's type but not branding. Return in the form of items seperated by new lines.
+Response: 
+{
+- Hearts of palm
+- Shirataki noodles (spaghetti style)
+- Shirataki noodles (fettuccine)
+- Gluten free chickpea penne pasta
+- Gluten free chickpea fusilli pasta
+- Jumbo shells macaroni product
+- Trottole macaroni product
+}
+
+
+
+Time: 2024-07-08 15:41:05.945265
+File: C:\Users\geodz\OneDrive\Documents\Coding\School Projects\CU Boulder\Correl Lab\llm_enumeration\ChatGPT_Tests/images/pasta/close/pasta_blue
+Question: What items are in the image? Include the item's type but not branding. Return in the form of items seperated by new lines.
+Response: 
+{
+Rotelle pasta
+Farfalle pasta
+Spaghetti
+}
+
+
+
+Time: 2024-07-08 15:40:29.895518
+File: C:\Users\geodz\OneDrive\Documents\Coding\School Projects\CU Boulder\Correl Lab\llm_enumeration\ChatGPT_Tests/images/produce/lemon_lime
+Question: What items are in the image? Include the item's type but not branding. Return in the form of items seperated by new lines.
+Response: 
+{
+Oranges
+Lemons
+Limes
+}
+
+
+
 Time: 2024-07-08 13:04:12.159517
 File: ChatGPT_Tests\images\produce\lemon_lime
 Question: What items are in the image? Ignore branding. Return answers in the form of words seperated by new lines

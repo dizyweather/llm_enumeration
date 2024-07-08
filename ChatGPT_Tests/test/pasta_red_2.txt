@@ -1,0 +1,11 @@
+Time: 2024-07-08 15:00:26.027072
+Question: What items are in the image? Ignore branding. Return answers in the form of words seperated by new lines.
+Response: 
+{
+Spaghetti
+100% Whole Grain pasta
+Gluten Free pasta
+}
+
+
+

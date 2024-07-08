@@ -1,6 +1,5 @@
 import requests
 import datetime
-import json
 import base64
 import os
 from dotenv import load_dotenv, find_dotenv
@@ -14,16 +13,19 @@ def encode_image(image_path):
     return base64.b64encode(image_file.read()).decode('utf-8')
 
 # Where you want to start looping through files
-rootdir = 'C:\\Users\\geodz\\OneDrive\\Documents\\Coding\\School Projects\\CU Boulder\\Correl Lab\\ChatGPT_Tests\\images'
+rootdir = os.path.dirname(os.path.realpath(__file__))
 
 # What do you want to ask about the picture
-question = "What items are in this image?"
+question = "What items are in the image? Ignore branding. Return answers in the form of words seperated by new lines."
 
-# Looping through each image
-for subdir, dirs, files in os.walk(rootdir):
+# How many times do you want to ask the same question (to account for natural variance in response)
+loops = 1
+
+# Looping through each file in images folder
+for subdir, dirs, files in os.walk(rootdir + '\\images'):
     for file in files:
         # Creates/adds to a .txt file of the same name to store the results we get from chatgpt
-        f = open('ChatGPT_Tests/responses/'+ file.strip('.jpg') + '.txt', 'a')
+        f = open(rootdir + '\\test\\'+ os.path.splitext(file)[0] + '.txt', 'a')
         
         # Path to your image
         image_path = os.path.join(subdir, file)
@@ -58,14 +60,15 @@ for subdir, dirs, files in os.walk(rootdir):
           "max_tokens": 300
         }
 
-        response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
-        
-        # Formatting of response and writing to file
-        now = datetime.datetime.now()
-        f.write('Time: ' + str(now) + '\n')
-        f.write('Question: ' + question + '\n')
-        f.write('Response: \n{\n' + response.json()["choices"][0]["message"]["content"] + '\n}\n\n\n\n')
-        print(file + " completed!")
+        for i in range(loops):
+          response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
+          
+          # Formatting of response and writing to file
+          now = datetime.datetime.now()
+          f.write('Time: ' + str(now) + '\n')
+          f.write('Question: ' + question + '\n')
+          f.write('Response: \n{\n' + response.json()["choices"][0]["message"]["content"] + '\n}\n\n\n\n')
+          print(file + " completed!")
 
 
 

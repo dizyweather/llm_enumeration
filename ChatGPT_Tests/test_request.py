@@ -12,12 +12,13 @@ def encode_image(image_path):
   with open(image_path, "rb") as image_file:
     return base64.b64encode(image_file.read()).decode('utf-8')
 
+rootdir = os.path.dirname(os.path.realpath(__file__))
 
 # What do you want to ask about the picture
-question = "What items are in the image? Ignore branding. Return answers in the form of words seperated by new lines"
+question = "What items are in the image? Include the item's type but not branding. Return in the form of items seperated by new lines."
 
 # Path to your image
-image_path = 'ChatGPT_Tests\images\produce\\lemon_lime.jpg'
+image_path = rootdir + '/images/pasta/close/pasta_green.jpg'
 
 # Getting the base64 string
 base64_image = encode_image(image_path)
@@ -55,10 +56,10 @@ response = requests.post("https://api.openai.com/v1/chat/completions", headers=h
 
 # Save in file, puts recived data in front
 previous_file_state = ''
-with open('ChatGPT_Tests/test_questions.txt', 'r') as f:
+with open(rootdir + '/test_questions.txt', 'r') as f:
     previous_file_state = f.read()
 
-with open('ChatGPT_Tests/test_questions.txt', 'w') as f:
+with open(rootdir + '/test_questions.txt', 'w') as f:
     now = datetime.datetime.now()
     f.write('Time: ' + str(now) + '\n')
     f.write('File: ' + os.path.splitext(image_path)[0] + '\n')
