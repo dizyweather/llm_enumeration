@@ -15,10 +15,10 @@ def encode_image(image_path):
 rootdir = os.path.dirname(os.path.realpath(__file__))
 
 # What do you want to ask about the picture
-question = "What items are in the image? Include the item's type but not branding. Return in the form of items seperated by new lines."
+question = "What items are in the image? Do not include details like branding or numbers. Return in the form of items seperated by new lines all lowercase."
 
 # Path to your image
-image_path = rootdir + '/images/pasta/close/pasta_green.jpg'
+image_path = rootdir + '/images/produce/fruit_far.jpg'
 
 # Getting the base64 string
 base64_image = encode_image(image_path)
