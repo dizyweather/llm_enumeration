@@ -1,0 +1,41 @@
+Time: 2024-07-09 20:41:41.316988
+Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+fettuccine
+linguine
+manicotti
+jumbo shells
+rotelle
+fusilloni
+rigatoni
+penne rigate
+mozzarella style
+elbows
+cavatappi
+}
+
+Identified [7]:
+	manicotti (manicotti)
+	jumbo shells (shell)
+	penne rigate (penne)
+	rigatoni (rigatoni)
+	elbows (elbow)
+	cavatappi (cavatappi)
+	fettuccine (fettuccine)
+
+Missed [5]:
+	spaghetti
+	lasagna
+	fusilli
+	trottole
+	noodle
+
+Unsure [4]:
+	linguine
+	rotelle
+	fusilloni
+	mozzarella style
+
+---------------------------------------------------
+

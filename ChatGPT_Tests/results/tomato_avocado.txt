@@ -1,0 +1,18 @@
+Time: 2024-07-09 20:42:30.686559
+Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+avocados
+tomatoes
+}
+
+Identified [2]:
+	avocados (avocado)
+	tomatoes (tomato)
+
+Missed [0]:
+
+Unsure [0]:
+
+---------------------------------------------------
+

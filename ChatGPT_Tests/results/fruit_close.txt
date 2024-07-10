@@ -1,0 +1,26 @@
+Time: 2024-07-09 20:42:03.057250
+Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+plums
+apricots
+white nectarines
+donut peaches
+peaches
+yellow nectarines
+}
+
+Identified [6]:
+	donut peaches (peach)
+	peaches (peach)
+	apricots (apricot)
+	white nectarines (nectarine)
+	yellow nectarines (nectarine)
+	plums (plum)
+
+Missed [0]:
+
+Unsure [0]:
+
+---------------------------------------------------
+

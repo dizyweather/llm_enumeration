@@ -16,7 +16,7 @@ def encode_image(image_path):
 rootdir = os.path.dirname(os.path.realpath(__file__))
 
 # Question to be sent along with the image 
-question = "What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase."
+question = "I want to make ____. Are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase."
 
 # How many times do you want to ask the same question for each picture (to account for natural variance in response)
 loops = 1

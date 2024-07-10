@@ -1,0 +1,38 @@
+Time: 2024-07-09 20:41:51.235499
+Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+manicotti
+pasta
+shells
+thin spaghetti
+elbows
+spaghetti
+whole grain spaghetti
+whole grain penne
+penne
+protein+ spaghetti
+gluten free penne
+}
+
+Identified [10]:
+	shells (shell)
+	thin spaghetti (spaghetti)
+	spaghetti (spaghetti)
+	whole grain spaghetti (spaghetti)
+	protein+ spaghetti (spaghetti)
+	manicotti (manicotti)
+	elbows (elbow)
+	whole grain penne (penne)
+	penne (penne)
+	gluten free penne (penne)
+
+Missed [2]:
+	angel hair
+	rotini
+
+Unsure [1]:
+	pasta
+
+---------------------------------------------------
+
