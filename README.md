@@ -24,7 +24,7 @@ OPENAI_API_KEY = YOUR_KEY_HERE
 ```
 
 ## Usage
-### item_identification.py
+### item_identification_test.py
 
 <p>This file will be testing the question:</p>
 
@@ -39,6 +39,14 @@ OPENAI_API_KEY = YOUR_KEY_HERE
 **More about autograding:**
 
 > For the autograder portion of this program to work, for each image in the ***images*** folder you want to be autograded, you must create a corresponding .items file (with the same name as the image) in the ***items*** folder. This file should contain the "correct" items seperated by newlines and all lowercase. <br> <br>The autograder will loop through each line of the response and compare it to see if any of the correct items match. This is done by a simple string in string comparison. If there is a match, the corresponding response will be put into the **Identified** section. If there are no match for a response, it will be put into the **Unsure** section. And if there are some answers that didn't match, they'll be put in the **Missed** section.
+<br>
+
+### item_logic_test.py
+This file will be testing the logical reasoning of chatgpt by asking:
+> I want to make ______. Are there any items in the image that I would need?
+
+Todo
+
 
 
 
