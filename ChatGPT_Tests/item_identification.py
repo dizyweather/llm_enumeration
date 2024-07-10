@@ -19,12 +19,13 @@ rootdir = os.path.dirname(os.path.realpath(__file__))
 question = "What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase."
 
 # How many times do you want to ask the same question for each picture (to account for natural variance in response)
-loops = 3
+loops = 1
 
 # Looping through each file in images folder
 for subdir, dirs, files in os.walk(rootdir + '/images'):
     for file in files:
       # Creates/adds to a .txt file of the same name to store the results we get from chatgpt
+      output = open(rootdir + '/results/'+ os.path.splitext(file)[0] + '.txt', 'w')
       output = open(rootdir + '/results/'+ os.path.splitext(file)[0] + '.txt', 'r+')
       
       # Path to your image
@@ -60,8 +61,10 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         "max_tokens": 300
       }
 
+      # Opens the .items file with the "correct" items
       answers = open(rootdir + '/items/' + os.path.splitext(file)[0] + '.items').readlines()
-      for i in range(loops):
+
+      for loop in range(loops):
         response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
         
         # Remember previous file state to prepend new data
@@ -96,7 +99,7 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         now = datetime.datetime.now()
         output.write('Time: ' + str(now) + '\n')
         output.write('Question: ' + question + '\n')
-        output.write('Response: \n{\n' + response.json()["choices"][0]["message"]["content"] + '\n}\n\n')
+        output.write('Response: \n{\n' + str(response.json()["choices"][0]["message"]["content"]) + '\n}\n\n')
         
         output.write('Identified [' + str(len(identified)) + ']:\n')
         for item in identified:
@@ -108,13 +111,13 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
             output.write('\t' + item + '\n')
         output.write('\n')
 
-        output.write('Hallucinated [' + str(len(data)) + ']:\n')
+        output.write('Unsure [' + str(len(data)) + ']:\n')
         for item in data:
             output.write('\t' + item + '\n')
         
         output.write('\n---------------------------------------------------\n\n' + previous_file_state)
         
-        print(file + " completed! " + str(i))
+        print(file + " completed! #" + str(loop))
       output.close()
         
 
