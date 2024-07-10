@@ -31,7 +31,7 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
       # Path to your image
       image_path = os.path.join(subdir, file)
 
-      # Getting the base64 string
+      # Getting the base64 image
       base64_image = encode_image(image_path)
 
       headers = {
@@ -78,7 +78,7 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         print('hit')
         response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
         
-        # Remember previous file state to prepend new data
+        # Remember previous file state so we can prepend new data later
         previous_file_state = output.read()
         
         # Data formatting / setup
@@ -129,6 +129,7 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         
         output.write('\n---------------------------------------------------\n\n' + previous_file_state)
         
+        # print to check progress in terminal
         print(file + " completed! #" + str(loop))
       output.close()
         
