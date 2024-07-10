@@ -12,10 +12,10 @@ def encode_image(image_path):
   with open(image_path, "rb") as image_file:
     return base64.b64encode(image_file.read()).decode('utf-8')
 
-# Where you want to start looping through files
+# Path to the root directory of wherever you chose to put this repo.
 rootdir = os.path.dirname(os.path.realpath(__file__))
 
-# What do you want to ask about the picture
+# Question to be sent along with the image 
 question = "What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase."
 
 # How many times do you want to ask the same question for each picture (to account for natural variance in response)
@@ -61,8 +61,15 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         "max_tokens": 300
       }
 
+      
       # Opens the .items file with the "correct" items
-      answers = open(rootdir + '/items/' + os.path.splitext(file)[0] + '.items').readlines()
+      try:
+        answers = open(rootdir + '/items/' + os.path.splitext(file)[0] + '.items', 'r').readlines()
+        autograde = True
+        break
+      except Exception as e:
+        autograde = False
+        answers = []
 
       for loop in range(loops):
         response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
@@ -101,19 +108,20 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         output.write('Question: ' + question + '\n')
         output.write('Response: \n{\n' + str(response.json()["choices"][0]["message"]["content"]) + '\n}\n\n')
         
-        output.write('Identified [' + str(len(identified)) + ']:\n')
-        for item in identified:
-            output.write('\t' + item + '\n')
-        output.write('\n')
+        if autograde:
+          output.write('Identified [' + str(len(identified)) + ']:\n')
+          for item in identified:
+              output.write('\t' + item + '\n')
+          output.write('\n')
 
-        output.write('Missed [' + str(len(missed)) + ']:\n')
-        for item in missed:
-            output.write('\t' + item + '\n')
-        output.write('\n')
+          output.write('Missed [' + str(len(missed)) + ']:\n')
+          for item in missed:
+              output.write('\t' + item + '\n')
+          output.write('\n')
 
-        output.write('Unsure [' + str(len(data)) + ']:\n')
-        for item in data:
-            output.write('\t' + item + '\n')
+          output.write('Unsure [' + str(len(data)) + ']:\n')
+          for item in data:
+              output.write('\t' + item + '\n')
         
         output.write('\n---------------------------------------------------\n\n' + previous_file_state)
         
