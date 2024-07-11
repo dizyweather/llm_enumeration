@@ -1,10 +1,50 @@
-Time: 2024-07-09 20:42:22.087406
+Time: 2024-07-10 21:18:02.714630
 Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 lemons
 limes
 oranges
+}
+
+Identified [3]:
+	oranges (orange)
+	lemons (lemon)
+	limes (lime)
+
+Missed [0]:
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-10 21:18:14.881895
+Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+oranges  
+lemons  
+limes
+}
+
+Identified [3]:
+	oranges   (orange)
+	lemons   (lemon)
+	limes (lime)
+
+Missed [0]:
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-10 21:18:24.465706
+Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+oranges
+lemons
+limes
 }
 
 Identified [3]:

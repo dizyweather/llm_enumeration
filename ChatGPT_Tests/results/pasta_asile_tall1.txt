@@ -1,41 +1,131 @@
-Time: 2024-07-09 20:41:41.316988
+Time: 2024-07-10 21:15:56.530938
 Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 fettuccine
-linguine
-manicotti
-jumbo shells
-rotelle
-fusilloni
+palmini linguine
+lasagna
+penne
 rigatoni
-penne rigate
-mozzarella style
+fusilli
+jumbo shells
 elbows
 cavatappi
+rotelle
+brown rice pasta
+spaghetti
 }
 
-Identified [7]:
-	manicotti (manicotti)
+Identified [9]:
+	spaghetti (spaghetti)
+	lasagna (lasagna)
 	jumbo shells (shell)
-	penne rigate (penne)
+	penne (penne)
+	fusilli (fusilli)
 	rigatoni (rigatoni)
 	elbows (elbow)
 	cavatappi (cavatappi)
 	fettuccine (fettuccine)
 
-Missed [5]:
-	spaghetti
-	lasagna
-	fusilli
+Missed [3]:
+	manicotti
 	trottole
 	noodle
 
-Unsure [4]:
-	linguine
+Unsure [3]:
+	palmini linguine
 	rotelle
-	fusilloni
-	mozzarella style
+	brown rice pasta
+
+---------------------------------------------------
+
+Time: 2024-07-10 21:16:05.667945
+Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+fettuccine
+linguine
+lasagna
+gluten free pasta
+penne
+macaroni
+shells
+rigatoni
+fusilli
+cavatappi
+elbows
+}
+
+Identified [8]:
+	lasagna (lasagna)
+	shells (shell)
+	penne (penne)
+	fusilli (fusilli)
+	rigatoni (rigatoni)
+	elbows (elbow)
+	cavatappi (cavatappi)
+	fettuccine (fettuccine)
+
+Missed [4]:
+	spaghetti
+	manicotti
+	trottole
+	noodle
+
+Unsure [3]:
+	linguine
+	gluten free pasta
+	macaroni
+
+---------------------------------------------------
+
+Time: 2024-07-10 21:16:15.529827
+Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+fettuccine
+hearts of palm
+lasagna
+manicotti
+jumbo shells
+fusilli
+rigatoni
+gluten free penne rigate
+gluten free rotini
+elbows
+penne rigate
+cavatappi
+spaghetti
+penne rigate
+fusilli
+rigatoni
+rigate
+}
+
+Identified [14]:
+	spaghetti (spaghetti)
+	lasagna (lasagna)
+	manicotti (manicotti)
+	jumbo shells (shell)
+	gluten free penne rigate (penne)
+	penne rigate (penne)
+	penne rigate (penne)
+	fusilli (fusilli)
+	fusilli (fusilli)
+	rigatoni (rigatoni)
+	rigatoni (rigatoni)
+	elbows (elbow)
+	cavatappi (cavatappi)
+	fettuccine (fettuccine)
+
+Missed [2]:
+	trottole
+	noodle
+
+Unsure [3]:
+	hearts of palm
+	gluten free rotini
+	rigate
 
 ---------------------------------------------------
 

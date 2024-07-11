@@ -19,14 +19,17 @@ rootdir = os.path.dirname(os.path.realpath(__file__))
 question = "What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase."
 
 # How many times do you want to ask the same question for each picture (to account for natural variance in response)
-loops = 1
+loops = 3
 
 # Looping through each file in images folder
 for subdir, dirs, files in os.walk(rootdir + '/images'):
     for file in files:
       # Creates/adds to a .txt file of the same name to store the results we get from chatgpt
       output = open(rootdir + '/results/'+ os.path.splitext(file)[0] + '.txt', 'w')
+      output.close()
+
       output = open(rootdir + '/results/'+ os.path.splitext(file)[0] + '.txt', 'r+')
+     
       
       # Path to your image
       image_path = os.path.join(subdir, file)
@@ -66,7 +69,7 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
       # If there are none, we'll skip the autograding feature.
       try:
         answers = open(rootdir + '/items/' + os.path.splitext(file)[0] + '.items', 'r').readlines()
-        print('opened: ' +  os.path.splitext(file)[0])
+        # print('opened: ' +  os.path.splitext(file)[0])
         autograde = True
         
       except Exception as e:
@@ -75,12 +78,9 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         
 
       for loop in range(loops):
-        print('hit')
         response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
         
-        # Remember previous file state so we can prepend new data later
         previous_file_state = output.read()
-        
         # Data formatting / setup
         identified = []
         missed = []

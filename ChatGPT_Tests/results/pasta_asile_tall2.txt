@@ -1,38 +1,95 @@
-Time: 2024-07-09 20:41:51.235499
+Time: 2024-07-10 21:16:25.010138
 Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 manicotti
-pasta
 shells
-thin spaghetti
-elbows
 spaghetti
 whole grain spaghetti
-whole grain penne
-penne
-protein+ spaghetti
-gluten free penne
+protein spaghetti
+gluten free spaghetti
 }
 
-Identified [10]:
+Identified [6]:
 	shells (shell)
-	thin spaghetti (spaghetti)
 	spaghetti (spaghetti)
 	whole grain spaghetti (spaghetti)
-	protein+ spaghetti (spaghetti)
+	protein spaghetti (spaghetti)
+	gluten free spaghetti (spaghetti)
 	manicotti (manicotti)
-	elbows (elbow)
-	whole grain penne (penne)
-	penne (penne)
-	gluten free penne (penne)
+
+Missed [4]:
+	elbow
+	angel hair
+	penne
+	rotini
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-10 21:16:34.468599
+Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+manicotti  
+shells  
+elbow macaroni  
+spaghetti  
+whole grain pasta  
+thin spaghetti  
+gluten free pasta
+}
+
+Identified [5]:
+	shells   (shell)
+	spaghetti   (spaghetti)
+	thin spaghetti   (spaghetti)
+	manicotti   (manicotti)
+	elbow macaroni   (elbow)
+
+Missed [3]:
+	angel hair
+	penne
+	rotini
+
+Unsure [2]:
+	whole grain pasta  
+	gluten free pasta
+
+---------------------------------------------------
+
+Time: 2024-07-10 21:16:46.009080
+Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+manicotti  
+pasta  
+shells  
+lasagna  
+elbow  
+spaghetti  
+whole grain spaghetti  
+gluten free spaghetti  
+penne pasta
+}
+
+Identified [7]:
+	shells   (shell)
+	spaghetti   (spaghetti)
+	whole grain spaghetti   (spaghetti)
+	gluten free spaghetti   (spaghetti)
+	manicotti   (manicotti)
+	elbow   (elbow)
+	penne pasta (penne)
 
 Missed [2]:
 	angel hair
 	rotini
 
-Unsure [1]:
-	pasta
+Unsure [2]:
+	pasta  
+	lasagna  
 
 ---------------------------------------------------
 

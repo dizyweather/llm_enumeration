@@ -1,12 +1,62 @@
-Time: 2024-07-09 20:41:09.146454
+Time: 2024-07-10 21:14:26.902154
+Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+boxes
+bags
+crackers
+pasta
+croutons
+sauce
+seasoning
+}
+
+Identified [1]:
+	pasta (pasta)
+
+Missed [1]:
+	sause
+
+Unsure [6]:
+	boxes
+	bags
+	crackers
+	croutons
+	sauce
+	seasoning
+
+---------------------------------------------------
+
+Time: 2024-07-10 21:14:36.299041
 Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 pasta
-grocery
-hangers
+croutons
+sauce
+christmas stockings
+}
+
+Identified [1]:
+	pasta (pasta)
+
+Missed [1]:
+	sause
+
+Unsure [3]:
+	croutons
+	sauce
+	christmas stockings
+
+---------------------------------------------------
+
+Time: 2024-07-10 21:14:45.581692
+Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+croutons
+pasta
 boxes
-packets
 bags
 }
 
@@ -16,11 +66,9 @@ Identified [1]:
 Missed [1]:
 	sause
 
-Unsure [5]:
-	grocery
-	hangers
+Unsure [3]:
+	croutons
 	boxes
-	packets
 	bags
 
 ---------------------------------------------------
