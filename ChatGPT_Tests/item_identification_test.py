@@ -30,7 +30,6 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
 
       output = open(rootdir + '/results/'+ os.path.splitext(file)[0] + '.txt', 'r+')
      
-      
       # Path to your image
       image_path = os.path.join(subdir, file)
 
