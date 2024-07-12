@@ -16,7 +16,8 @@ def encode_image(image_path):
 rootdir = os.path.dirname(os.path.realpath(__file__))
 
 # Question to be sent along with the image 
-question = "I want to make ____. Are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase."
+dish = 'spaghetti and meatballs'
+question = "I want to make " + dish + ". Are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase."
 
 # How many times do you want to ask the same question for each picture (to account for natural variance in response)
 loops = 1
@@ -82,29 +83,17 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         previous_file_state = output.read()
         
         # Data formatting / setup
-        identified = []
-        missed = []
-        data =  []
+        correct_positive = []
+        correct_negative = []
+        false_positive =  []
+        false_negative = []
         
+        data = []
         for item in response.json()["choices"][0]["message"]["content"].splitlines():
           data.append(item)
 
         # Autograding
-        for key_item in answers:
-          key_item = key_item.strip('\n ')
-          found = False
-          i = 0
-          while i < len(data):
-              response_item = data[i]
-              if key_item in response_item:
-                  identified.append(response_item + ' (' + key_item + ')')
-                  data.pop(i)
-                  found = True
-                  i = i - 1
-              i = i + 1
-              
-          if not found:
-              missed.append(key_item)
+        # TODO
 
         # Formatting of response and writing to file
         now = datetime.datetime.now()
@@ -113,19 +102,24 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         output.write('Response: \n{\n' + str(response.json()["choices"][0]["message"]["content"]) + '\n}\n\n')
         
         if autograde:
-          output.write('Identified [' + str(len(identified)) + ']:\n')
-          for item in identified:
+          output.write('Correct Positive [' + str(len(correct_positive)) + ']:\n')
+          for item in correct_positive:
               output.write('\t' + item + '\n')
           output.write('\n')
 
-          output.write('Missed [' + str(len(missed)) + ']:\n')
-          for item in missed:
+          output.write('Fasle Positive [' + str(len(false_positive)) + ']:\n')
+          for item in false_positive:
               output.write('\t' + item + '\n')
           output.write('\n')
 
-          output.write('Unsure [' + str(len(data)) + ']:\n')
-          for item in data:
+          output.write('Correct Negative [' + str(len(correct_negative)) + ']:\n')
+          for item in correct_negative:
               output.write('\t' + item + '\n')
+          
+          output.write('Fasle Negative [' + str(len(false_negative)) + ']:\n')
+          for item in false_negative:
+              output.write('\t' + item + '\n')
+          output.write('\n')
         
         output.write('\n---------------------------------------------------\n\n' + previous_file_state)
         
