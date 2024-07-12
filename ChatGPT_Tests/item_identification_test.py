@@ -25,10 +25,10 @@ loops = 3
 for subdir, dirs, files in os.walk(rootdir + '/images'):
     for file in files:
       # Creates/adds to a .txt file of the same name to store the results we get from chatgpt
-      output = open(rootdir + '/results/'+ os.path.splitext(file)[0] + '.txt', 'w')
+      output = open(rootdir + '/image_id_results/'+ os.path.splitext(file)[0] + '.txt', 'w')
       output.close()
 
-      output = open(rootdir + '/results/'+ os.path.splitext(file)[0] + '.txt', 'r+')
+      output = open(rootdir + '/image_id_results/'+ os.path.splitext(file)[0] + '.txt', 'r+')
      
       # Path to your image
       image_path = os.path.join(subdir, file)
@@ -60,7 +60,7 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
             ]
           }
         ],
-        "max_tokens": 300
+        "max_tokens": 1000
       }
 
       
