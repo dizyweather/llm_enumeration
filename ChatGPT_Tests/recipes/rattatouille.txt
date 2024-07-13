@@ -1,4 +1,4 @@
-tomatoes
+tomato
 zucchini
 pepper 
 onion
