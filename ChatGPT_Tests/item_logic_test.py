@@ -23,12 +23,12 @@ target = 'ratattouille'
 
 target_question = "I want to make " + target + ". What would I need? Only include items, no steps, processes, or amounts. List the items as words seperated by new lines all lowercase. Only include only the most common/traditional items"
 
-headers = {
+headers1 = {
   "Content-Type": "application/json",
   "Authorization": f"Bearer {api_key}"
 }
 
-payload = {
+payload1 = {
   "model": "gpt-4o",
   "messages": [
   {
@@ -44,7 +44,7 @@ payload = {
   "max_tokens": 1000
 }
 
-recipe_response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
+recipe_response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers1, json=payload1)
 recipe_string = str(recipe_response.json()["choices"][0]["message"]["content"])
 recipe_items = recipe_string.splitlines()
 for i in range(len(recipe_items)):
