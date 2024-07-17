@@ -33,13 +33,13 @@ After it recieves a response, it will check if there is a corresponding .items f
 Then it will print data about the request and autograding (if applicable) into a corresponding .txt file with the same name as the image in the ```image_id_results``` folder.<br>
 
 So to use this file:
-1. Replace the ```images``` folder with your own folder of images.
-2. For each image you want to autograde, make a corresponding .items file with the ***same name*** in the ```items``` folder
+- Replace the ```images``` folder with your own folder of images.
+-  For each image you want to autograde, make a corresponding .items file with the ***same name*** in the ```items``` folder
    - Make sure it lists all items actually in the image, all lowercase, and one item each line.
    - Try not to add spaces at the beggining/end or empty lines between items, I don't think I stripped the input.
-3. Edit the ```question = "____"``` variable with any specifics/helping info for gpt.
-4. Edit the ```loops = #``` variable to set how many times you want to ask the same question for each image.
-5. Run
+- Edit the ```question = "____"``` variable with any specifics/helping info for gpt.
+- Edit the ```loops = #``` variable to set how many times you want to ask the same question for each image.
+- Run
 
 After running, the terimal will have print statements to let you know how far along is it.<br>
 After done, you can check the ```image_id_results``` and you'll see a .txt file for each of your images. The file will list every request sent to gpt with: 
@@ -50,7 +50,7 @@ After done, you can check the ```image_id_results``` and you'll see a .txt file 
   - (If there's a corresponding .items file)
 
 
-**More about autograding:**
+**About Autograding:**
 
 > The autograder will loop through each line of the response and compare it to see if any of the correct items match. This is done by a basic ```string in string``` comparison. If there is a match, the corresponding response will be put into the **Identified** section. If there are no match for a response, it will be put into the **Unsure** section. And if there are some answers that weren't used, they'll be put in the **Missed** section.
 <br>
@@ -62,7 +62,23 @@ This file will be testing the logical reasoning of chatgpt with identification. 
 
 >I want to make ______. Are there any items in the picture that I would need?
 
+Now to summarize how this file will work:
+1. It will first send a request to gpt asking what items would be needed to make the target craft/recipe.
+2. After recieving the response, it will be writtent to the ```recipes``` folder so you can check it later.
+3. Then, it will loop through each image and ask if there are any items in the image that you would need to make the target craft/recipe
+4. After recieving the response, it will compare the answers to the recipe and the actual items in the picture from the corresponding .items file.
+5. Finally, it will print the results to a corresponding .txt file to the ```image_logic_results``` file
 
+To use the file:
+- Replace the ```images``` folder with your own folder of images.
+- Edit the ```target = "____"``` to whatever you want
+- Edit the ```target_question = "____"``` to whatever you want
+  - This is the prompt to ask gpt for the recipe
+- Edit the ```loops = #``` for how many times you ask each image the question
+- Make sure for **EVERY** image, you have a corresponding .items file in the ```items``` folder
+- Run
+
+After completion, the results will be printed with basically the same format as in the ```item_identification_test.py``` program.
 
 
 
