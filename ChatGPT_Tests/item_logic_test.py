@@ -18,7 +18,7 @@ rootdir = os.path.dirname(os.path.realpath(__file__))
 # How many times do you want to ask the same question for each picture (to account for natural variance in response)
 loops = 1
 
-# Generating recipe
+# Generating items for recipe / craft
 target = 'ratattouille'
 
 target_question = "I want to make " + target + ". What would I need? Only include items, no steps, processes, or amounts. List the items as words seperated by new lines all lowercase. Only include only the most common/traditional items"
@@ -47,6 +47,8 @@ payload1 = {
 recipe_response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers1, json=payload1)
 recipe_string = str(recipe_response.json()["choices"][0]["message"]["content"])
 recipe_items = recipe_string.splitlines()
+
+# Formatting craft / recipe items 
 for i in range(len(recipe_items)):
   recipe_items[i] = recipe_items[i].strip()
 
@@ -60,6 +62,7 @@ except:
   
 recipe_file = open(rootdir + '/recipes/' + target + ".txt", 'w')
 
+# Write results of craft / recipe to a .txt file
 now = datetime.datetime.now()
 recipe_file.write('Time: ' + str(now) + '\n')
 recipe_file.write('Question: ' + target_question + '\n')
@@ -116,20 +119,20 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         
       }
 
-      
-      # Trys to open the corresponsing .items file of the image.
-      # If there are none, we'll skip the autograding feature.
+
+      # Checks if there's a corresponding .items file for the image
+      # If not, it will skip the image and not generate any results
       try:
         image_items = open(rootdir + '/items/' + os.path.splitext(file)[0] + '.items', 'r').readlines()
         # Readlines does not strip the '\n' so here we manually do it
         for i in range(len(image_items)):
           image_items[i] = image_items[i].strip('\n')     
-
       except Exception as e:
-        print('Must have item list of ' + os.path.splitext(file)[0] + "!")
+        print(os.path.splitext(file)[0] + " did not have a corresponding .items file, skipping image!")
         print(e)
-        exit()
-
+        continue
+      
+      # Asking the same question "loops" amount of times
       for loop in range(loops):
         response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
         
@@ -146,10 +149,11 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         
         response_items = []
 
-        # Sifting items
+        # Used record. Used to determine the false and true negatives
         image_item_used = []
         recipe_item_used = []
 
+        # Sometimes I get errors when sending certain pictures, just used a catch so it won't interrupt the remaining images
         try:
           for item in response.json()['choices'][0]['message']['content'].splitlines():
             response_items.append(item)
@@ -158,37 +162,37 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
           print(response.json())
           print('\n')
           continue
-          
-        none = False
+        
+        # Check for no items in image match
         if response_items[0] == 'n/a':
-          none = True
           response_items.remove('n/a')
         
-        
+        # Autograder
         for response_item in response_items:
           in_image = False
           for image_item in image_items:
             if image_item in response_item:
-              # Chatgpt has identified an item in the picture correctly
+              # Gpt response is in the image
               image_item_used.append(image_item)
               in_recipe = False
               in_image = True
               for recipe_item in recipe_items:
                 if image_item in recipe_item:
-                  # And if that item is in the recipe
+                  # Gpt response is in the recipe and image
                   recipe_item_used.append(recipe_item)
                   true_positive.append(response_item + '\t(' + image_item + ', ' + recipe_item + ')')
                   in_recipe = True
                   break
               
-              # In image, not in recipe
+              # Gpt response in image, not in recipe
               if not in_recipe:
                 false_positive.append(response_item + '\t(' + image_item + ' not in recipe)')
             
-          # Not in image
+          # Gpt response not in image
           if not in_image:
             false_positive.append(response_item + '\t(not in image)')
         
+        # Removing image and recipe items that were identified
         for item in image_item_used:
           try:
             image_items.remove(item)
@@ -201,6 +205,7 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
           except:
             pass
         
+        # Checking if gpt missed any items
         for image_item in image_items:
           for recipe_item in recipe_items:
             if image_item in recipe_item:
@@ -208,47 +213,6 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
               recipe_items.remove(recipe_item)
         
         true_negative = recipe_items
-        # # Autograding
-        # for recipe_item in recipe_items:
-        #   in_recipe = False
-        #   for response_item in response_items:
-        #     # For each response, we check if any of the recipe items match
-        #     if recipe_item in response_item:
-        #       # There is an recipe item that matches the response item
-        #       in_recipe = True
-        #       in_image = False
-        #       for image_item in image_items:
-        #           # We check if it's truly in the image
-        #           if image_item in recipe_item:
-        #             # The item is truly in the image
-        #             true_positive.append(response_item + ' (' + recipe_item + ')')
-        #             in_image = True
-        #             # We don't have to double count once found
-        #             response_items.remove(response_item)
-        #             image_items.remove(image_item)
-        #             break
-
-        #       # If it's not
-        #       if not in_image:
-        #           false_positive.append(response_item + ' (not in image)')
-        #           response_items.remove(response_item)
-        #     # If no match in recipe
-        #     if not in_recipe:
-        #       false_positive.append(response_item + ' (not in recipe)')
-        #       response_items.remove(response_item)
-          
-        #   #recipe item was not in response, now we need to check if it was actually in the image
-        #   in_image = False
-        #   for image_item in image_items:
-        #     if image_item in recipe_item:
-        #       #In image but did not get picked up my gpt
-        #       false_negative.append(recipe_item + ' (gpt did not pick up)')
-        #       image_items.remove(image_item)
-        #       in_image = True
-        #       break
-        #   # recipe item not in response or image
-        #   if not in_image:
-        #     true_negative.append(recipe_item)
 
         # Formatting of response and writing to file
         now = datetime.datetime.now()
