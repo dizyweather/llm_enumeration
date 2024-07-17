@@ -1,3 +1,69 @@
+Time: 2024-07-16 19:00:41.448847
+Question: I want to make ratattouille. What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items.
+Response: 
+{
+tomatoes
+}
+
+Correct Positive [1]:
+	tomatoes	(tomato, tomatoes)
+
+Fasle Positive [0]:
+
+Correct Negative [14]:
+	eggplant
+	zucchini
+	yellow squash
+	bell peppers
+	onions
+	garlic
+	olive oil
+	salt
+	black pepper
+	thyme
+	basil
+	rosemary
+	marjoram
+	parsley
+
+Fasle Negative [0]:
+
+
+---------------------------------------------------
+
+Time: 2024-07-16 18:58:01.978427
+Question: I want to make ratattouille. What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items.
+Response: 
+{
+tomatoes
+}
+
+Correct Positive [1]:
+	tomatoes	(tomato, tomato)
+
+Fasle Positive [0]:
+
+Correct Negative [14]:
+	eggplant
+	zucchini
+	yellow squash
+	red bell pepper
+	yellow bell pepper
+	green bell pepper
+	onion
+	garlic
+	olive oil
+	salt
+	black pepper
+	thyme
+	basil
+	parsley
+
+Fasle Negative [0]:
+
+
+---------------------------------------------------
+
 Time: 2024-07-15 20:15:50.003224
 Question: I want to make ratattouille. What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items.
 Response: 
