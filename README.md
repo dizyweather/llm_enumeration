@@ -62,7 +62,7 @@ This file will be testing the logical reasoning of chatgpt with identification. 
 
 Now to summarize how this file will work:
 1. It will first send a request to gpt asking what items would be needed to make the target craft/recipe.
-2. After recieving the response, it will be writtent to the ```recipes``` folder so you can check it later.
+2. After recieving the response, it will be written to the ```recipes``` folder so you can check it later.
 3. Then, it will loop through each image and ask if there are any items in the image that you would need to make the target craft/recipe
 4. After recieving the response, it will compare the answers to the recipe and the actual items in the picture from the corresponding .items file.
 5. Finally, it will print the results to a corresponding .txt file to the ```image_logic_results``` file
