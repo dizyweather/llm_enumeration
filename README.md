@@ -24,7 +24,7 @@ OPENAI_API_KEY = YOUR_KEY_HERE
 ```
 
 ## Usage
-### item_identification_test.py
+### ```item_identification_test.py```
 
 This file will be testing the general capabilities of ChatGpt4o in it's ability to just identify items in an image. 
 
@@ -49,15 +49,14 @@ After done, you can check the ```image_id_results``` and you'll see a .txt file 
 - Summary from the autograder
   - (If there's a corresponding .items file)
 
+After, you can run ```count_id_results.py``` which will loop through the ```image_id_results``` folder and sum up all the items in the Identified, Unsure, and Missed sections together for each image into a corresponding .sum file in the ```image_id_summary``` folder.
 
 **About Autograding:**
 
 > The autograder will loop through each line of the response and compare it to see if any of the correct items match. This is done by a basic ```string in string``` comparison. If there is a match, the corresponding response will be put into the **Identified** section. If there are no match for a response, it will be put into the **Unsure** section. And if there are some answers that weren't used, they'll be put in the **Missed** section.
 <br>
 
-In the future i'll probably make a sum program that will loop through the files in the ```image_id_results``` folder and grouping same words and summing them up to make a big result file so you won't have to scroll through each request to gpt.
-
-### item_logic_test.py
+### ```item_logic_test.py```
 This file will be testing the logical reasoning of chatgpt with identification. The previous program is very basic, we just ask for all items in the image. However, it's more useful if we ask gpt to look for items that meet a certain criteria, say a recipe. This program asks gpt to identify items that we would need for a given recipe/craft. It follows the format: <br>
 
 >I want to make ______. Are there any items in the picture that I would need?
@@ -79,6 +78,8 @@ To use the file:
 - Run
 
 After completion, the results will be printed with basically the same format as in the ```item_identification_test.py``` program.
+
+Will also make a count program to sum up the results in the future like in the previous program.
 
 
 
