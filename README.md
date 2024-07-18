@@ -39,7 +39,6 @@ So to use this file:
    - Try not to add spaces at the beggining/end or empty lines between items, I don't think I stripped the input.
 - Edit the ```question = "____"``` variable with any specifics/helping info for gpt.
 - Edit the ```loops = #``` variable to set how many times you want to ask the same question for each image.
-- Run
 
 After running, the terimal will have print statements to let you know how far along is it.<br>
 After done, you can check the ```image_id_results``` and you'll see a .txt file for each of your images. The file will list every request sent to gpt with: 
@@ -74,8 +73,7 @@ To use the file:
 - Edit the ```target_question = "____"``` to whatever you want
   - This is the prompt to ask gpt for the recipe
 - Edit the ```loops = #``` for how many times you ask each image the question
-- Make sure for **EVERY** image, you have a corresponding .items file in the ```items``` folder
-- Run
+- If an image doesn't have a .items file, it will be skipped over.
 
 After completion, the results will be printed with basically the same format as in the ```item_identification_test.py``` program.
 
