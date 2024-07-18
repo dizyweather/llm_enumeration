@@ -1,14 +1,13 @@
-Time: 2024-07-10 21:14:26.902154
+Time: 2024-07-17 19:47:15.359771
 Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
-boxes
-bags
+pasta
+sauce
 crackers
-pasta
+broth
 croutons
-sauce
-seasoning
+stuffing
 }
 
 Identified [1]:
@@ -17,24 +16,22 @@ Identified [1]:
 Missed [1]:
 	sause
 
-Unsure [6]:
-	boxes
-	bags
+Unsure [5]:
+	sauce
 	crackers
+	broth
 	croutons
-	sauce
-	seasoning
+	stuffing
 
 ---------------------------------------------------
 
-Time: 2024-07-10 21:14:36.299041
+Time: 2024-07-17 19:47:24.786995
 Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 pasta
 croutons
 sauce
-christmas stockings
 }
 
 Identified [1]:
@@ -43,21 +40,19 @@ Identified [1]:
 Missed [1]:
 	sause
 
-Unsure [3]:
+Unsure [2]:
 	croutons
 	sauce
-	christmas stockings
 
 ---------------------------------------------------
 
-Time: 2024-07-10 21:14:45.581692
+Time: 2024-07-17 19:47:34.407577
 Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
-croutons
 pasta
-boxes
-bags
+croutons
+sauce
 }
 
 Identified [1]:
@@ -66,10 +61,9 @@ Identified [1]:
 Missed [1]:
 	sause
 
-Unsure [3]:
+Unsure [2]:
 	croutons
-	boxes
-	bags
+	sauce
 
 ---------------------------------------------------
 

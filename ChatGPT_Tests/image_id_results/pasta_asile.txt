@@ -1,155 +1,159 @@
-Time: 2024-07-10 21:14:55.514937
+Time: 2024-07-17 19:47:48.213630
 Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 fettuccine
-hearts of palm pasta
-gluten free pasta
-jumbo shells
+elbows
 manicotti
-lasagna
+jumbo shells
 fusilli
-radiatori
+angel hair
+pappardelle
+medium shells
 farfalle
-cavatappi
+penne rigate
+shells
+gluten free spaghetti
+gluten free penne
+gluten free elbows
 spaghetti
-linguine
+vegetable lasagna
+spinach lasagna
 rigatoni
-pasta
-cheese
+macaroni
+cavatappi
 }
 
-Identified [9]:
+Identified [17]:
 	fettuccine (fettuccine)
-	lasagna (lasagna)
+	vegetable lasagna (lasagna)
+	spinach lasagna (lasagna)
 	manicotti (manicotti)
 	jumbo shells (shell)
+	medium shells (shell)
+	shells (shell)
 	fusilli (fusilli)
+	gluten free spaghetti (spaghetti)
 	spaghetti (spaghetti)
 	rigatoni (rigatoni)
 	farfalle (farfalle)
+	penne rigate (penne)
+	gluten free penne (penne)
+	elbows (elbow)
+	gluten free elbows (elbow)
 	cavatappi (cavatappi)
 
-Missed [6]:
+Missed [4]:
 	fusilloni
 	noodle
 	trottole
-	penne
 	ziti
-	elbow
 
-Unsure [6]:
-	hearts of palm pasta
-	gluten free pasta
-	radiatori
-	linguine
-	pasta
-	cheese
+Unsure [3]:
+	angel hair
+	pappardelle
+	macaroni
 
 ---------------------------------------------------
 
-Time: 2024-07-10 21:15:05.625300
+Time: 2024-07-17 19:48:00.339291
 Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
-pasta
-fettuccine
-lasagne
-manicotti
-jumbo shells
-casereccia
-rigatoni
-farafalle
-spaghetti
-gluten free pasta
-trio italiano
-bionaturae
-cheese
-}
-
-Identified [5]:
-	fettuccine (fettuccine)
-	manicotti (manicotti)
-	jumbo shells (shell)
-	spaghetti (spaghetti)
-	rigatoni (rigatoni)
-
-Missed [10]:
-	lasagna
-	fusilloni
-	noodle
-	fusilli
-	trottole
-	farfalle
-	penne
-	ziti
-	elbow
-	cavatappi
-
-Unsure [8]:
-	pasta
-	lasagne
-	casereccia
-	farafalle
-	gluten free pasta
-	trio italiano
-	bionaturae
-	cheese
-
----------------------------------------------------
-
-Time: 2024-07-10 21:15:17.324650
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
-Response: 
-{
-fettuccine
+fettucine
 lasagna
-shells
-manicotti
-jumbo shells
-fusilloni
-elbows
-medium shells
-farfalloni
+spaghetti
+mozzarella rolls
+tagliatelle
 rigatoni
-mezzi rigatoni
+star pasta
+jumbo shells
+elbows
+macaroni
+penne
+gluten free pasta
+linguine
+rotini
+farfalle
+medium shells
 ziti
 cavatappi
-farfalle
-penne
-spaghetti
-macaroni
-casarecce
-snacks
+pappardelle
 }
 
-Identified [15]:
-	fettuccine (fettuccine)
+Identified [10]:
 	lasagna (lasagna)
-	manicotti (manicotti)
-	fusilloni (fusilloni)
-	shells (shell)
 	jumbo shells (shell)
 	medium shells (shell)
 	spaghetti (spaghetti)
 	rigatoni (rigatoni)
-	mezzi rigatoni (rigatoni)
 	farfalle (farfalle)
 	penne (penne)
 	ziti (ziti)
 	elbows (elbow)
 	cavatappi (cavatappi)
 
-Missed [3]:
+Missed [6]:
+	fettuccine
+	manicotti
+	fusilloni
 	noodle
 	fusilli
 	trottole
 
-Unsure [4]:
-	farfalloni
+Unsure [9]:
+	fettucine
+	mozzarella rolls
+	tagliatelle
+	star pasta
 	macaroni
-	casarecce
-	snacks
+	gluten free pasta
+	linguine
+	rotini
+	pappardelle
+
+---------------------------------------------------
+
+Time: 2024-07-17 19:48:13.308824
+Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+fettuccine
+pasta
+macaroni
+linguine
+penne
+shells
+fusilli
+lasagna
+cavatappi
+spaghetti
+rigatoni
+}
+
+Identified [8]:
+	fettuccine (fettuccine)
+	lasagna (lasagna)
+	shells (shell)
+	fusilli (fusilli)
+	spaghetti (spaghetti)
+	rigatoni (rigatoni)
+	penne (penne)
+	cavatappi (cavatappi)
+
+Missed [7]:
+	manicotti
+	fusilloni
+	noodle
+	trottole
+	farfalle
+	ziti
+	elbow
+
+Unsure [3]:
+	pasta
+	macaroni
+	linguine
 
 ---------------------------------------------------
 

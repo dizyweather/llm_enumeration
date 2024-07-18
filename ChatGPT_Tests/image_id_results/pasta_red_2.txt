@@ -1,4 +1,47 @@
-Time: 2024-07-10 21:14:02.913193
+Time: 2024-07-17 19:46:45.433754
+Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+spaghetti
+whole grain penne
+protein plus pasta
+gluten free pasta
+}
+
+Identified [2]:
+	spaghetti (spaghetti)
+	whole grain penne (penne)
+
+Missed [0]:
+
+Unsure [2]:
+	protein plus pasta
+	gluten free pasta
+
+---------------------------------------------------
+
+Time: 2024-07-17 19:46:53.914624
+Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+spaghetti
+whole grain pasta
+gluten free pasta
+}
+
+Identified [1]:
+	spaghetti (spaghetti)
+
+Missed [1]:
+	penne
+
+Unsure [2]:
+	whole grain pasta
+	gluten free pasta
+
+---------------------------------------------------
+
+Time: 2024-07-17 19:47:01.473327
 Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
@@ -18,51 +61,6 @@ Unsure [3]:
 	pasta
 	whole grain
 	gluten free
-
----------------------------------------------------
-
-Time: 2024-07-10 21:14:10.022852
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
-Response: 
-{
-spaghetti
-pasta
-whole grain pasta
-penne pasta
-}
-
-Identified [2]:
-	spaghetti (spaghetti)
-	penne pasta (penne)
-
-Missed [0]:
-
-Unsure [2]:
-	pasta
-	whole grain pasta
-
----------------------------------------------------
-
-Time: 2024-07-10 21:14:16.968954
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
-Response: 
-{
-spaghetti
-whole grain pasta
-protein+ pasta
-gluten free pasta
-}
-
-Identified [1]:
-	spaghetti (spaghetti)
-
-Missed [1]:
-	penne
-
-Unsure [3]:
-	whole grain pasta
-	protein+ pasta
-	gluten free pasta
 
 ---------------------------------------------------
 

@@ -1,9 +1,50 @@
-Time: 2024-07-10 21:12:38.419018
+Time: 2024-07-17 19:45:17.765716
+Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+spaghetti
+spaghetti
+angel hair
+}
+
+Identified [2]:
+	spaghetti (spaghetti)
+	spaghetti (spaghetti)
+
+Missed [0]:
+
+Unsure [1]:
+	angel hair
+
+---------------------------------------------------
+
+Time: 2024-07-17 19:45:28.945746
+Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+spaghetti
+pasta
+angel hair
+}
+
+Identified [1]:
+	spaghetti (spaghetti)
+
+Missed [0]:
+
+Unsure [2]:
+	pasta
+	angel hair
+
+---------------------------------------------------
+
+Time: 2024-07-17 19:45:38.818288
 Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 spaghetti
 thin spaghetti
+pasta
 angel hair
 }
 
@@ -13,43 +54,8 @@ Identified [2]:
 
 Missed [0]:
 
-Unsure [1]:
-	angel hair
-
----------------------------------------------------
-
-Time: 2024-07-10 21:12:46.931523
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
-Response: 
-{
-spaghetti
-angel hair
-}
-
-Identified [1]:
-	spaghetti (spaghetti)
-
-Missed [0]:
-
-Unsure [1]:
-	angel hair
-
----------------------------------------------------
-
-Time: 2024-07-10 21:12:55.079276
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
-Response: 
-{
-spaghetti
-angel hair
-}
-
-Identified [1]:
-	spaghetti (spaghetti)
-
-Missed [0]:
-
-Unsure [1]:
+Unsure [2]:
+	pasta
 	angel hair
 
 ---------------------------------------------------

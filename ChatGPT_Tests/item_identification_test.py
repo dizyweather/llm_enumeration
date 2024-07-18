@@ -86,7 +86,8 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         data =  []
         
         for item in response.json()["choices"][0]["message"]["content"].splitlines():
-          data.append(item)
+          
+          data.append(item.strip().strip('\n'))
 
         # Autograding
         for key_item in answers:
@@ -129,7 +130,7 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         output.write('\n---------------------------------------------------\n\n' + previous_file_state)
         
         # print to check progress in terminal
-        print(file + " completed! #" + str(loop))
+        print(file + " completed! #" + str(loop + 1))
       output.close()
         
 

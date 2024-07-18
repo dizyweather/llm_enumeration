@@ -1,45 +1,65 @@
-Time: 2024-07-10 21:13:05.336903
+Time: 2024-07-17 19:45:47.908719
 Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
-hearts of palm
+pasta
 noodles
-gluten free chickpea fusilli pasta
-gluten free chickpea penne pasta
-italian jumbo shells
-italian trottolle pasta
+shells
+penne pasta
+fusilli pasta
+trottole pasta
 }
 
-Identified [4]:
-	gluten free chickpea penne pasta (penne)
-	italian jumbo shells (shell)
-	gluten free chickpea fusilli pasta (pasta)
-	italian trottolle pasta (pasta)
+Identified [5]:
+	penne pasta (penne)
+	trottole pasta (trottole)
+	shells (shell)
+	pasta (pasta)
+	fusilli pasta (pasta)
 
-Missed [1]:
-	trottole
+Missed [0]:
 
-Unsure [2]:
-	hearts of palm
+Unsure [1]:
 	noodles
 
 ---------------------------------------------------
 
-Time: 2024-07-10 21:13:16.356766
+Time: 2024-07-17 19:45:56.589386
+Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+pasta
+noodles
+}
+
+Identified [1]:
+	pasta (pasta)
+
+Missed [3]:
+	penne
+	trottole
+	shell
+
+Unsure [1]:
+	noodles
+
+---------------------------------------------------
+
+Time: 2024-07-17 19:46:07.404257
 Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 hearts of palm
 shirataki noodles
+jumbo shells
 gluten free chickpea fusilli pasta
 gluten free chickpea penne pasta
-jumbo shells
-trottole
+trottole macaroni product
 }
 
 Identified [4]:
 	gluten free chickpea penne pasta (penne)
-	trottole (trottole)
+	trottole macaroni product (trottole)
 	jumbo shells (shell)
 	gluten free chickpea fusilli pasta (pasta)
 
@@ -47,36 +67,6 @@ Missed [0]:
 
 Unsure [2]:
 	hearts of palm
-	shirataki noodles
-
----------------------------------------------------
-
-Time: 2024-07-10 21:13:26.957711
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
-Response: 
-{
-hearts of palm
-spaghetti style
-shirataki noodles
-jumbo shells
-gluten free chickpea fusilli pasta
-gluten free chickpea penne pasta
-trottole macaroni
-italian pasta
-}
-
-Identified [5]:
-	gluten free chickpea penne pasta (penne)
-	trottole macaroni (trottole)
-	jumbo shells (shell)
-	gluten free chickpea fusilli pasta (pasta)
-	italian pasta (pasta)
-
-Missed [0]:
-
-Unsure [3]:
-	hearts of palm
-	spaghetti style
 	shirataki noodles
 
 ---------------------------------------------------
