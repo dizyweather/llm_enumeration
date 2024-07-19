@@ -19,16 +19,18 @@ rootdir = os.path.dirname(os.path.realpath(__file__))
 question = "What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase."
 
 # How many times do you want to ask the same question for each picture (to account for natural variance in response)
-loops = 3
+loops = 2
 
 # Looping through each file in images folder
 for subdir, dirs, files in os.walk(rootdir + '/images'):
     for file in files:
-      # Creates/adds to a .txt file of the same name to store the results we get from chatgpt
-      output = open(rootdir + '/image_id_results/'+ os.path.splitext(file)[0] + '.txt', 'w')
+      # Makes sure that there is a .txt file of the same name to store the results we get from chatgpt
+      try:
+        output = open(rootdir + '/image_id_results/'+ os.path.splitext(file)[0] + '.txt', 'r+')
+      except:
+        output = open(rootdir + '/image_id_results/'+ os.path.splitext(file)[0] + '.txt', 'w')
+      
       output.close()
-
-      output = open(rootdir + '/image_id_results/'+ os.path.splitext(file)[0] + '.txt', 'r+')
      
       # Path to your image
       image_path = os.path.join(subdir, file)
@@ -79,7 +81,12 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
       for loop in range(loops):
         response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
         
+        # Get previous file state
+        output = open(rootdir + '/image_id_results/'+ os.path.splitext(file)[0] + '.txt', 'r+')
         previous_file_state = output.read()
+        output.truncate(0)
+        output.seek(0)
+        
         # Data formatting / setup
         identified = []
         missed = []
@@ -131,7 +138,7 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         
         # print to check progress in terminal
         print(file + " completed! #" + str(loop + 1))
-      output.close()
+        output.close()
         
 
 

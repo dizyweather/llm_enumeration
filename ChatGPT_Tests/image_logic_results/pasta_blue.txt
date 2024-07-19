@@ -1,175 +1,90 @@
-Time: 2024-07-16 18:58:50.212083
+Time: 2024-07-18 20:23:03.496453
 Question: I want to make ratattouille. What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items.
 Response: 
 {
 n/a
 }
 
-Correct Positive [0]:
+True Positive [0]:
 
-Fasle Positive [0]:
+False Positive [0]:
 
-Correct Negative [15]:
+True Negative [12]:
 	eggplant
 	zucchini
 	yellow squash
-	tomatoes
-	bell peppers
-	onions
-	garlic
-	olive oil
-	salt
-	black pepper
-	thyme
-	basil
-	rosemary
-	marjoram
-	parsley
-
-Fasle Negative [0]:
-
-
----------------------------------------------------
-
-Time: 2024-07-16 18:56:07.441644
-Question: I want to make ratattouille. What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items.
-Response: 
-{
-n/a
-}
-
-Correct Positive [0]:
-
-Fasle Positive [0]:
-
-Correct Negative [15]:
-	eggplant
-	zucchini
-	yellow squash
-	red bell pepper
-	yellow bell pepper
-	green bell pepper
+	bell pepper
 	onion
+	garlic
 	tomato
-	garlic
 	olive oil
 	salt
 	black pepper
-	thyme
 	basil
-	parsley
+	thyme
 
-Fasle Negative [0]:
+False Negative [0]:
 
 
 ---------------------------------------------------
 
-Time: 2024-07-15 20:20:35.526240
+Time: 2024-07-18 20:22:55.249304
 Question: I want to make ratattouille. What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items.
 Response: 
 {
 n/a
 }
 
-Correct Positive [0]:
+True Positive [0]:
 
-Fasle Positive [0]:
+False Positive [0]:
 
-Correct Negative [16]:
+True Negative [12]:
 	eggplant
 	zucchini
 	yellow squash
-	red bell pepper
-	yellow bell pepper
-	green bell pepper
-	roma tomatoes
+	bell pepper
 	onion
 	garlic
+	tomato
 	olive oil
 	salt
 	black pepper
-	dried thyme
-	dried basil
-	dried oregano
-	basil leaves
+	basil
+	thyme
 
-Fasle Negative [0]:
+False Negative [0]:
 
 
 ---------------------------------------------------
 
-Time: 2024-07-15 20:13:51.669898
+Time: 2024-07-18 20:22:07.564753
 Question: I want to make ratattouille. What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items.
 Response: 
 {
 n/a
 }
 
-Correct Positive [0]:
+True Positive [0]:
 
-Fasle Positive [0]:
+False Positive [0]:
 
-Correct Negative [15]:
+True Negative [13]:
 	eggplant
 	zucchini
 	yellow squash
 	red bell pepper
 	green bell pepper
-	yellow bell pepper
-	onion
+	yellow onion
 	garlic
-	tomatoes
+	tomato
 	olive oil
-	thyme
 	basil
-	parsley
+	thyme
 	salt
 	black pepper
 
-Fasle Negative [0]:
-
-
----------------------------------------------------
-
-Time: 2024-07-15 20:04:13.450412
-Question: I want to make ratattouille. What would I need? Only think about items, do not think about processes, steps, or amounts. Don't return anything for this, just think about. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a
-Response: 
-{
-n/a
-}
-
-Correct Positive [0]:
-
-Fasle Positive [0]:
-
-Correct Negative [25]:
-	eggplant  
-	zucchini  
-	yellow squash  
-	red bell pepper  
-	green bell pepper  
-	yellow bell pepper  
-	onion  
-	tomato  
-	garlic  
-	olive oil  
-	salt  
-	black pepper  
-	thyme  
-	basil  
-	parsley  
-	bay leaves  
-	oregano  
-	marjoram  
-	paprika  
-	tomato paste  
-	vegetable broth  
-	balsamic vinegar  
-	red wine  
-	parmesan cheese  
-	goat cheese
-
-Fasle Negative [0]:
+False Negative [0]:
 
 
 ---------------------------------------------------

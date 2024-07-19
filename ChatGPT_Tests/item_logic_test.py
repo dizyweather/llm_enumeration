@@ -16,7 +16,7 @@ def encode_image(image_path):
 rootdir = os.path.dirname(os.path.realpath(__file__))
 
 # How many times do you want to ask the same question for each picture (to account for natural variance in response)
-loops = 1
+loops = 2
 
 # Generating items for recipe / craft
 target = 'ratattouille'
@@ -48,7 +48,7 @@ recipe_response = requests.post("https://api.openai.com/v1/chat/completions", he
 recipe_string = str(recipe_response.json()["choices"][0]["message"]["content"])
 recipe_items = recipe_string.splitlines()
 
-# Formatting craft / recipe items 
+# Formatting recipe items 
 for i in range(len(recipe_items)):
   recipe_items[i] = recipe_items[i].strip()
 
@@ -62,7 +62,7 @@ except:
   
 recipe_file = open(rootdir + '/recipes/' + target + ".txt", 'w')
 
-# Write results of craft / recipe to a .txt file
+# Write results of recipe to a .txt file
 now = datetime.datetime.now()
 recipe_file.write('Time: ' + str(now) + '\n')
 recipe_file.write('Question: ' + target_question + '\n')
@@ -79,9 +79,8 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         output = open(rootdir + '/image_logic_results/'+ os.path.splitext(file)[0] + '.txt', 'r+')
       except:
         output = open(rootdir + '/image_logic_results/'+ os.path.splitext(file)[0] + '.txt', 'w')
-        output.close()
-        output = open(rootdir + '/image_logic_results/'+ os.path.splitext(file)[0] + '.txt', 'r+')
-        
+      output.close()
+
       # Path to your image
       image_path = os.path.join(subdir, file)
 
@@ -126,7 +125,7 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         image_items = open(rootdir + '/items/' + os.path.splitext(file)[0] + '.items', 'r').readlines()
         # Readlines does not strip the '\n' so here we manually do it
         for i in range(len(image_items)):
-          image_items[i] = image_items[i].strip('\n')     
+          image_items[i] = image_items[i].strip('\n').strip()     
       except Exception as e:
         print(os.path.splitext(file)[0] + " did not have a corresponding .items file, skipping image!")
         print(e)
@@ -136,6 +135,7 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
       for loop in range(loops):
         response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
         
+        output = open(rootdir + '/image_logic_results/'+ os.path.splitext(file)[0] + '.txt', 'r+')
         # Remember previous file state to prepend new data and erase
         previous_file_state = output.read()
         output.truncate(0)
@@ -156,7 +156,7 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         # Sometimes I get errors when sending certain pictures, just used a catch so it won't interrupt the remaining images
         try:
           for item in response.json()['choices'][0]['message']['content'].splitlines():
-            response_items.append(item)
+            response_items.append(item.strip().strip('\n'))
         except:
           print('\n' + file + " encountered a problem!")
           print(response.json())
@@ -221,29 +221,31 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         output.write('Response: \n{\n' + str(response.json()["choices"][0]["message"]["content"]) + '\n}\n\n')
         
         
-        output.write('Correct Positive [' + str(len(true_positive)) + ']:\n')
+        output.write('True Positive [' + str(len(true_positive)) + ']:\n')
         for item in true_positive:
           output.write('\t' + item + '\n')
         output.write('\n')
 
-        output.write('Fasle Positive [' + str(len(false_positive)) + ']:\n')
+        output.write('False Positive [' + str(len(false_positive)) + ']:\n')
         for item in false_positive:
           output.write('\t' + item + '\n')
         output.write('\n')
 
-        output.write('Correct Negative [' + str(len(true_negative)) + ']:\n')
+        output.write('True Negative [' + str(len(true_negative)) + ']:\n')
         for item in true_negative:
           output.write('\t' + item + '\n')
         output.write('\n')
 
-        output.write('Fasle Negative [' + str(len(false_negative)) + ']:\n')
+        output.write('False Negative [' + str(len(false_negative)) + ']:\n')
         for item in false_negative:
             output.write('\t' + item + '\n')
         output.write('\n')
         
         output.write('\n---------------------------------------------------\n\n' + previous_file_state)
         
-        print(file + " completed! #" + str(loop))
+        print(file + " completed! #" + str(loop + 1))
+    
+        output.close()
       
         
 

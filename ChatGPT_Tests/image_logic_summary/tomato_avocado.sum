@@ -1,0 +1,12 @@
+True Positive
+	--Sum [0]--
+
+False Positive
+	tomatoes	(not in image) [1]
+	--Sum [1]--
+
+True Negative
+	--Sum [0]--
+
+False Negative
+	--Sum [0]--

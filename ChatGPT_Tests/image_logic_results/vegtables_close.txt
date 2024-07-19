@@ -1,53 +1,16 @@
-Time: 2024-07-16 19:00:49.710730
+Time: 2024-07-18 20:14:27.217959
 Question: I want to make ratattouille. What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items.
 Response: 
 {
-garlic
-
+shallots
 }
 
-Correct Positive [1]:
-	garlic	(garlic, garlic)
+True Positive [0]:
 
-Fasle Positive [0]:
+False Positive [1]:
+	shallots	(shallot not in recipe)
 
-Correct Negative [13]:
-	eggplant
-	zucchini
-	yellow squash
-	bell peppers
-	onions
-	olive oil
-	salt
-	black pepper
-	thyme
-	basil
-	rosemary
-	marjoram
-	parsley
-
-Fasle Negative [0]:
-
-
----------------------------------------------------
-
-Time: 2024-07-16 18:58:10.076197
-Question: I want to make ratattouille. What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items.
-Response: 
-{
-garlic
-
-tomatoes
-}
-
-Correct Positive [1]:
-	garlic	(garlic, garlic)
-
-Fasle Positive [2]:
-		(not in image)
-	tomatoes	(tomato not in recipe)
-
-Correct Negative [13]:
+True Negative [13]:
 	eggplant
 	zucchini
 	yellow squash
@@ -62,82 +25,39 @@ Correct Negative [13]:
 	basil
 	parsley
 
-Fasle Negative [0]:
+False Negative [1]:
+	garlic(garlic)
 
 
 ---------------------------------------------------
 
-Time: 2024-07-15 20:15:58.812008
+Time: 2024-07-18 19:56:52.896200
 Question: I want to make ratattouille. What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items.
 Response: 
 {
 garlic
-
 }
 
-Correct Positive [1]:
-	garlic	(garlic, garlic)
+True Positive [0]:
 
-Fasle Positive [0]:
+False Positive [1]:
+	garlic	(not in image)
 
-Correct Negative [13]:
+True Negative [12]:
 	eggplant
 	zucchini
 	yellow squash
 	red bell pepper
-	green bell pepper
 	yellow bell pepper
+	green bell pepper
 	onion
 	olive oil
-	thyme
-	basil
-	parsley
 	salt
 	black pepper
+	basil
+	thyme
 
 Fasle Negative [0]:
-
-
----------------------------------------------------
-
-Time: 2024-07-15 20:06:17.064878
-Question: I want to make ratattouille. What would I need? Only think about items, do not think about processes, steps, or amounts. Don't return anything for this, just think about. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a
-Response: 
-{
-garlic
-}
-
-Correct Positive [1]:
-	garlic	(garlic, garlic  )
-
-Fasle Positive [0]:
-
-Correct Negative [22]:
-	eggplant  
-	zucchini  
-	yellow squash  
-	red bell pepper  
-	green bell pepper  
-	yellow bell pepper  
-	onion  
-	olive oil  
-	salt  
-	black pepper  
-	thyme  
-	basil  
-	parsley  
-	bay leaves  
-	oregano  
-	marjoram  
-	paprika  
-	vegetable broth  
-	balsamic vinegar  
-	red wine  
-	parmesan cheese  
-	goat cheese
-
-Fasle Negative [1]:
-	tomato paste  (tomato)
 
 
 ---------------------------------------------------
