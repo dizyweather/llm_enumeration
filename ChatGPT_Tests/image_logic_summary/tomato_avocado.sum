@@ -1,5 +1,6 @@
 True Positive
-	--Sum [0]--
+	tomatoes	(tomato, tomatoes) [1]
+	--Sum [1]--
 
 False Positive
 	tomatoes	(not in image) [1]
@@ -9,4 +10,18 @@ True Negative
 	--Sum [0]--
 
 False Negative
-	--Sum [0]--
+	eggplant [2]
+	zucchini [2]
+	yellow squash [2]
+	red bell pepper [2]
+	yellow bell pepper [2]
+	green bell pepper [2]
+	onion [2]
+	garlic [2]
+	olive oil [2]
+	salt [2]
+	black pepper [2]
+	thyme [2]
+	basil [2]
+	parsley [1]
+	--Sum [27]--

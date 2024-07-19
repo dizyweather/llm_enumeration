@@ -21,7 +21,8 @@ for subdir, dirs, files in os.walk(resultdir):
             false_pos_index = text.find('False Positive', current_index)
             true_neg_index = text.find('True Negative', current_index)
             false_neg_index = text.find('False Negative', current_index)
-            
+            end_line_index = text.find('---', current_index)
+
             # Find words in True Positive Section
             while word_start_index < false_pos_index and word_start_index != -1:
                 word_end_index = text.find('\n', word_start_index)
@@ -54,17 +55,9 @@ for subdir, dirs, files in os.walk(resultdir):
                     true_neg_dict[word] = 1 + true_neg_dict[word]
                  
                 word_start_index = text.find('\t', word_end_index)
-            
-
-            # Checks if this is end of file, if so we need special conditions for Unsure section
-            current_index = text.find(target, current_index + len(target))
-            end = False
-            if current_index == -1:
-                current_index = text.find('-', current_index)
-                end = True
 
             # Find words in False Negative Section
-            while word_start_index < current_index and word_start_index != -1:
+            while word_start_index < end_line_index and word_start_index != -1:
                 word_end_index = text.find('\n', word_start_index)
                 word = text[word_start_index + 1:word_end_index]
                 if false_neg_dict.get(word) == None:
@@ -74,8 +67,7 @@ for subdir, dirs, files in os.walk(resultdir):
                  
                 word_start_index = text.find('\t', word_end_index)
             
-            if end:
-                current_index = -1
+            current_index = text.find(target, current_index + len(target))
 
         output = open(os.path.dirname(os.path.realpath(__file__)) + '/image_logic_summary/' + os.path.splitext(file)[0] + '.sum', 'w')
         sum = 0

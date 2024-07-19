@@ -8,4 +8,23 @@ True Negative
 	--Sum [0]--
 
 False Negative
-	--Sum [0]--
+	eggplant [4]
+	zucchini [4]
+	yellow squash [4]
+	bell pepper [1]
+	onion [3]
+	garlic [4]
+	tomato [2]
+	olive oil [4]
+	salt [4]
+	black pepper [4]
+	basil [4]
+	thyme [4]
+	red bell pepper [1]
+	green bell pepper [1]
+	yellow onion [1]
+	bell peppers [2]
+	tomatoes [2]
+	parsley [2]
+	tomato sauce [2]
+	--Sum [53]--
