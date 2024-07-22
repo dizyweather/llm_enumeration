@@ -1,4 +1,4 @@
-Time: 2024-07-18 20:13:28.395963
+Time: 2024-07-21 20:12:29.052395
 Question: I want to make ratattouille. What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items.
 Response: 
 {
@@ -9,19 +9,16 @@ True Positive [0]:
 
 False Positive [0]:
 
-True Negative [15]:
+True Negative [12]:
 	eggplant
 	zucchini
-	yellow squash
-	red bell pepper
-	yellow bell pepper
-	green bell pepper
-	onion
+	bell peppers
 	tomatoes
+	onion
 	garlic
 	olive oil
 	salt
-	black pepper
+	pepper
 	thyme
 	basil
 	parsley
@@ -31,7 +28,7 @@ False Negative [0]:
 
 ---------------------------------------------------
 
-Time: 2024-07-18 19:54:14.822127
+Time: 2024-07-21 20:12:19.192857
 Question: I want to make ratattouille. What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items.
 Response: 
 {
@@ -42,23 +39,51 @@ True Positive [0]:
 
 False Positive [0]:
 
-True Negative [14]:
+True Negative [12]:
 	eggplant
 	zucchini
-	yellow squash
-	red bell pepper
-	yellow bell pepper
-	green bell pepper
+	bell peppers
+	tomatoes
 	onion
 	garlic
-	tomatoes
 	olive oil
 	salt
-	black pepper
-	basil
+	pepper
 	thyme
+	basil
+	parsley
 
-Fasle Negative [0]:
+False Negative [0]:
+
+
+---------------------------------------------------
+
+Time: 2024-07-21 20:12:11.375351
+Question: I want to make ratattouille. What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items.
+Response: 
+{
+n/a
+}
+
+True Positive [0]:
+
+False Positive [0]:
+
+True Negative [12]:
+	eggplant
+	zucchini
+	bell peppers
+	tomatoes
+	onion
+	garlic
+	olive oil
+	salt
+	pepper
+	thyme
+	basil
+	parsley
+
+False Negative [0]:
 
 
 ---------------------------------------------------

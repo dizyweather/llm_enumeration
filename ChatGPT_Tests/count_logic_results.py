@@ -46,7 +46,7 @@ for subdir, dirs, files in os.walk(resultdir):
                 word_start_index = text.find('\t', word_end_index)
             
             # Find words in True Negative Section
-            while word_start_index < true_neg_index and word_start_index != -1:
+            while word_start_index < false_neg_index and word_start_index != -1:
                 word_end_index = text.find('\n', word_start_index)
                 word = text[word_start_index + 1:word_end_index]
                 if true_neg_dict.get(word) == None:

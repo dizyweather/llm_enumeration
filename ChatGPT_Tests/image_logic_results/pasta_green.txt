@@ -1,4 +1,4 @@
-Time: 2024-07-18 20:20:41.511949
+Time: 2024-07-21 20:09:54.520698
 Question: I want to make ratattouille. What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items.
 Response: 
 {
@@ -9,28 +9,26 @@ True Positive [0]:
 
 False Positive [0]:
 
-True Negative [14]:
+True Negative [12]:
 	eggplant
 	zucchini
-	yellow squash
 	bell peppers
 	tomatoes
 	onion
 	garlic
 	olive oil
 	salt
-	black pepper
+	pepper
 	thyme
 	basil
 	parsley
-	tomato sauce
 
 False Negative [0]:
 
 
 ---------------------------------------------------
 
-Time: 2024-07-18 20:20:32.312245
+Time: 2024-07-21 20:09:47.008728
 Question: I want to make ratattouille. What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items.
 Response: 
 {
@@ -41,21 +39,49 @@ True Positive [0]:
 
 False Positive [0]:
 
-True Negative [14]:
+True Negative [12]:
 	eggplant
 	zucchini
-	yellow squash
 	bell peppers
 	tomatoes
 	onion
 	garlic
 	olive oil
 	salt
-	black pepper
+	pepper
 	thyme
 	basil
 	parsley
-	tomato sauce
+
+False Negative [0]:
+
+
+---------------------------------------------------
+
+Time: 2024-07-21 20:09:38.052341
+Question: I want to make ratattouille. What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items.
+Response: 
+{
+n/a
+}
+
+True Positive [0]:
+
+False Positive [0]:
+
+True Negative [12]:
+	eggplant
+	zucchini
+	bell peppers
+	tomatoes
+	onion
+	garlic
+	olive oil
+	salt
+	pepper
+	thyme
+	basil
+	parsley
 
 False Negative [0]:
 

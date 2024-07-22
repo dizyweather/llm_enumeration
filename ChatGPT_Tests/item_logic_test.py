@@ -16,7 +16,7 @@ def encode_image(image_path):
 rootdir = os.path.dirname(os.path.realpath(__file__))
 
 # How many times do you want to ask the same question for each picture (to account for natural variance in response)
-loops = 2
+loops = 3
 
 # Generating items for recipe / craft
 target = 'ratattouille'
@@ -46,11 +46,11 @@ payload1 = {
 
 recipe_response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers1, json=payload1)
 recipe_string = str(recipe_response.json()["choices"][0]["message"]["content"])
-recipe_items = recipe_string.splitlines()
+recipe_items_original = recipe_string.splitlines()
 
 # Formatting recipe items 
-for i in range(len(recipe_items)):
-  recipe_items[i] = recipe_items[i].strip()
+for i in range(len(recipe_items_original)):
+  recipe_items_original[i] = recipe_items_original[i].strip().strip('\n')
 
 previous_file_state = ''
 try:
@@ -122,15 +122,16 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
       # Checks if there's a corresponding .items file for the image
       # If not, it will skip the image and not generate any results
       try:
-        image_items = open(rootdir + '/items/' + os.path.splitext(file)[0] + '.items', 'r').readlines()
+        image_items_original = open(rootdir + '/items/' + os.path.splitext(file)[0] + '.items', 'r').readlines()
         # Readlines does not strip the '\n' so here we manually do it
-        for i in range(len(image_items)):
-          image_items[i] = image_items[i].strip('\n').strip()     
+        for i in range(len(image_items_original)):
+          image_items_original[i] = image_items_original[i].strip().strip('\n')     
       except Exception as e:
         print(os.path.splitext(file)[0] + " did not have a corresponding .items file, skipping image!")
         print(e)
         continue
       
+
       # Asking the same question "loops" amount of times
       for loop in range(loops):
         response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
@@ -146,14 +147,16 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         true_negative = []
         false_positive =  []
         false_negative = []
-        
         response_items = []
 
-        # Used record. Used to determine the false and true negatives
+        # Recording words that have been used. Used to determine the false and true negatives
         image_item_used = []
         recipe_item_used = []
 
         # Sometimes I get errors when sending certain pictures, just used a catch so it won't interrupt the remaining images
+        recipe_items = recipe_items_original[:]
+        image_items = image_items_original[:]
+
         try:
           for item in response.json()['choices'][0]['message']['content'].splitlines():
             response_items.append(item.strip().strip('\n'))
@@ -162,17 +165,22 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
           print(response.json())
           print('\n')
           continue
-        
+
         # Check for no items in image match
         if response_items[0] == 'n/a':
           response_items.remove('n/a')
         
+        print(response_items)
+        print(image_items)
+        print(recipe_items)
         # Autograder
         for response_item in response_items:
           in_image = False
           for image_item in image_items:
+            print("Testing " + image_item + " with " + response_item)
             if image_item in response_item:
-              # Gpt response is in the image
+              print('match!')
+              # Gpt item is actually in the image
               image_item_used.append(image_item)
               in_recipe = False
               in_image = True
@@ -187,6 +195,8 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
               # Gpt response in image, not in recipe
               if not in_recipe:
                 false_positive.append(response_item + '\t(' + image_item + ' not in recipe)')
+              
+              break
             
           # Gpt response not in image
           if not in_image:

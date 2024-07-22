@@ -1,3 +1,241 @@
+Time: 2024-07-21 20:08:39.356062
+Question: I want to make ratattouille. What would I need? Only include items, no steps, processes, or amounts. List the items as words seperated by new lines all lowercase. Only include only the most common/traditional items
+Response: 
+{
+eggplant  
+zucchini  
+bell peppers  
+tomatoes  
+onion  
+garlic  
+olive oil  
+salt  
+pepper  
+thyme  
+basil  
+parsley
+}
+
+------------------------------------------
+
+Time: 2024-07-21 20:04:04.942348
+Question: I want to make ratattouille. What would I need? Only include items, no steps, processes, or amounts. List the items as words seperated by new lines all lowercase. Only include only the most common/traditional items
+Response: 
+{
+eggplant
+zucchini
+bell peppers
+tomatoes
+onions
+garlic
+olive oil
+salt
+black pepper
+fresh thyme
+fresh basil
+}
+
+------------------------------------------
+
+Time: 2024-07-21 19:52:39.459855
+Question: I want to make ratattouille. What would I need? Only include items, no steps, processes, or amounts. List the items as words seperated by new lines all lowercase. Only include only the most common/traditional items
+Response: 
+{
+eggplant  
+zucchini  
+yellow squash  
+red bell pepper  
+green bell pepper  
+onion  
+tomato  
+garlic  
+olive oil  
+salt  
+black pepper  
+thyme  
+basil  
+parsley  
+bay leaf
+}
+
+------------------------------------------
+
+Time: 2024-07-21 19:45:37.893010
+Question: I want to make ratattouille. What would I need? Only include items, no steps, processes, or amounts. List the items as words seperated by new lines all lowercase. Only include only the most common/traditional items
+Response: 
+{
+eggplant  
+zucchini  
+yellow squash  
+red bell pepper  
+yellow bell pepper  
+green bell pepper  
+onion  
+tomato  
+garlic  
+olive oil  
+basil  
+thyme  
+salt  
+black pepper
+}
+
+------------------------------------------
+
+Time: 2024-07-21 19:20:55.205521
+Question: I want to make ratattouille. What would I need? Only include items, no steps, processes, or amounts. List the items as words seperated by new lines all lowercase. Only include only the most common/traditional items
+Response: 
+{
+eggplant  
+zucchini  
+yellow squash  
+red bell pepper  
+green bell pepper  
+tomato  
+onion  
+garlic  
+olive oil  
+salt  
+black pepper  
+basil  
+thyme  
+parsley
+}
+
+------------------------------------------
+
+Time: 2024-07-21 19:20:32.927583
+Question: I want to make ratattouille. What would I need? Only include items, no steps, processes, or amounts. List the items as words seperated by new lines all lowercase. Only include only the most common/traditional items
+Response: 
+{
+eggplant
+zucchini
+yellow squash
+red bell pepper
+green bell pepper
+yellow bell pepper
+tomatoes
+onion
+garlic
+olive oil
+salt
+black pepper
+thyme
+parsley
+basil
+}
+
+------------------------------------------
+
+Time: 2024-07-21 19:05:16.965324
+Question: I want to make ratattouille. What would I need? Only include items, no steps, processes, or amounts. List the items as words seperated by new lines all lowercase. Only include only the most common/traditional items
+Response: 
+{
+eggplant
+zucchini
+yellow squash
+red bell pepper
+tomatoes
+onion
+garlic
+olive oil
+salt
+black pepper
+tomato paste
+dried thyme
+dried basil
+dried oregano
+bay leaf
+}
+
+------------------------------------------
+
+Time: 2024-07-21 19:03:31.858297
+Question: I want to make ratattouille. What would I need? Only include items, no steps, processes, or amounts. List the items as words seperated by new lines all lowercase. Only include only the most common/traditional items
+Response: 
+{
+eggplant
+zucchini
+tomatoes
+bell peppers
+onion
+garlic
+olive oil
+salt
+pepper
+thyme
+basil
+}
+
+------------------------------------------
+
+Time: 2024-07-21 17:47:39.603037
+Question: I want to make ratattouille. What would I need? Only include items, no steps, processes, or amounts. List the items as words seperated by new lines all lowercase. Only include only the most common/traditional items
+Response: 
+{
+eggplant
+zucchini
+yellow squash
+red bell pepper
+yellow bell pepper
+onion
+garlic
+tomato
+olive oil
+salt
+black pepper
+thyme
+basil
+parsley
+}
+
+------------------------------------------
+
+Time: 2024-07-21 17:30:34.283018
+Question: I want to make ratattouille. What would I need? Only include items, no steps, processes, or amounts. List the items as words seperated by new lines all lowercase. Only include only the most common/traditional items
+Response: 
+{
+eggplant
+zucchini
+yellow squash
+red bell pepper
+yellow bell pepper
+green bell pepper
+roma tomatoes
+onion
+garlic
+olive oil
+salt
+black pepper
+thyme
+basil
+parsley
+tomato paste
+}
+
+------------------------------------------
+
+Time: 2024-07-21 17:26:15.032949
+Question: I want to make ratattouille. What would I need? Only include items, no steps, processes, or amounts. List the items as words seperated by new lines all lowercase. Only include only the most common/traditional items
+Response: 
+{
+eggplant
+zucchini
+yellow squash
+red bell pepper
+green bell pepper
+tomato
+onion
+garlic
+olive oil
+thyme
+basil
+salt
+black pepper
+}
+
+------------------------------------------
+
 Time: 2024-07-18 20:22:48.046491
 Question: I want to make ratattouille. What would I need? Only include items, no steps, processes, or amounts. List the items as words seperated by new lines all lowercase. Only include only the most common/traditional items
 Response: 

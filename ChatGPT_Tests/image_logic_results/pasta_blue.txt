@@ -1,4 +1,4 @@
-Time: 2024-07-18 20:23:03.496453
+Time: 2024-07-21 20:09:05.489083
 Question: I want to make ratattouille. What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items.
 Response: 
 {
@@ -12,23 +12,23 @@ False Positive [0]:
 True Negative [12]:
 	eggplant
 	zucchini
-	yellow squash
-	bell pepper
+	bell peppers
+	tomatoes
 	onion
 	garlic
-	tomato
 	olive oil
 	salt
-	black pepper
-	basil
+	pepper
 	thyme
+	basil
+	parsley
 
 False Negative [0]:
 
 
 ---------------------------------------------------
 
-Time: 2024-07-18 20:22:55.249304
+Time: 2024-07-21 20:08:56.118374
 Question: I want to make ratattouille. What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items.
 Response: 
 {
@@ -42,23 +42,23 @@ False Positive [0]:
 True Negative [12]:
 	eggplant
 	zucchini
-	yellow squash
-	bell pepper
+	bell peppers
+	tomatoes
 	onion
 	garlic
-	tomato
 	olive oil
 	salt
-	black pepper
-	basil
+	pepper
 	thyme
+	basil
+	parsley
 
 False Negative [0]:
 
 
 ---------------------------------------------------
 
-Time: 2024-07-18 20:22:07.564753
+Time: 2024-07-21 20:08:47.494547
 Question: I want to make ratattouille. What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items.
 Response: 
 {
@@ -69,20 +69,19 @@ True Positive [0]:
 
 False Positive [0]:
 
-True Negative [13]:
+True Negative [12]:
 	eggplant
 	zucchini
-	yellow squash
-	red bell pepper
-	green bell pepper
-	yellow onion
+	bell peppers
+	tomatoes
+	onion
 	garlic
-	tomato
 	olive oil
-	basil
-	thyme
 	salt
-	black pepper
+	pepper
+	thyme
+	basil
+	parsley
 
 False Negative [0]:
 

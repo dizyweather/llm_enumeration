@@ -1,63 +1,91 @@
-Time: 2024-07-18 20:14:27.217959
+Time: 2024-07-21 20:15:04.469733
 Question: I want to make ratattouille. What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items.
 Response: 
 {
-shallots
+shallots  
+garlic
 }
 
-True Positive [0]:
+True Positive [1]:
+	garlic	(garlic, garlic)
 
 False Positive [1]:
 	shallots	(shallot not in recipe)
 
-True Negative [13]:
+True Negative [10]:
 	eggplant
 	zucchini
-	yellow squash
-	red bell pepper
-	yellow bell pepper
-	green bell pepper
+	bell peppers
 	onion
 	olive oil
 	salt
-	black pepper
+	pepper
 	thyme
 	basil
 	parsley
 
 False Negative [1]:
-	garlic(garlic)
+	tomatoes(tomato)
 
 
 ---------------------------------------------------
 
-Time: 2024-07-18 19:56:52.896200
+Time: 2024-07-21 20:14:56.120487
 Question: I want to make ratattouille. What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items.
 Response: 
 {
 garlic
 }
 
-True Positive [0]:
+True Positive [1]:
+	garlic	(garlic, garlic)
 
-False Positive [1]:
-	garlic	(not in image)
+False Positive [0]:
 
-True Negative [12]:
+True Negative [10]:
 	eggplant
 	zucchini
-	yellow squash
-	red bell pepper
-	yellow bell pepper
-	green bell pepper
+	bell peppers
 	onion
 	olive oil
 	salt
-	black pepper
-	basil
+	pepper
 	thyme
+	basil
+	parsley
 
-Fasle Negative [0]:
+False Negative [1]:
+	tomatoes(tomato)
+
+
+---------------------------------------------------
+
+Time: 2024-07-21 20:14:47.640564
+Question: I want to make ratattouille. What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items.
+Response: 
+{
+garlic
+}
+
+True Positive [1]:
+	garlic	(garlic, garlic)
+
+False Positive [0]:
+
+True Negative [10]:
+	eggplant
+	zucchini
+	bell peppers
+	onion
+	olive oil
+	salt
+	pepper
+	thyme
+	basil
+	parsley
+
+False Negative [1]:
+	tomatoes(tomato)
 
 
 ---------------------------------------------------
