@@ -77,7 +77,7 @@ To use the file:
 
 After completion, the results will be printed with basically the same format as in the ```item_identification_test.py``` program.
 
-Will also make a count program to sum up the results in the future like in the previous program.
+Then you can run ```count_logic_results.py``` which will loop through the ```image_logic_results``` folder and sum up all the items in the Identified, Unsure, and Missed sections together for each image into a corresponding .sum file in the ```image_logic_summary``` folder.
 
 
 
