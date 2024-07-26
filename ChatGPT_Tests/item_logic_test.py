@@ -15,13 +15,14 @@ def encode_image(image_path):
 # Path to the root directory of wherever you chose to put this repo.
 rootdir = os.path.dirname(os.path.realpath(__file__))
 
-# How many times do you want to ask the same question for each picture (to account for natural variance in response)
+# How many times do you want to ask the same prompt for each picture (to account for natural variance in response)
 loops = 3
 
-# Generating items for recipe / craft
+# Generating items for recipe / craft. 
+# If you wan't to make your own recipe list, remove below section and add your own .txt file with the same name as your target to the recipes folder
 target = 'ratattouille'
 
-target_question = "I want to make " + target + ". What would I need? Only include items, no steps, processes, or amounts. List the items as words seperated by new lines all lowercase. Only include only the most common/traditional items"
+target_prompt = "I want to make " + target + ". What would I need? Only include items, no steps, processes, or amounts. List the items as words seperated by new lines all lowercase. Only include only the most common/traditional items"
 
 headers1 = {
   "Content-Type": "application/json",
@@ -36,7 +37,7 @@ payload1 = {
       "content": [
       {
           "type": "text",
-          "text": target_question
+          "text": target_prompt
       }
       ]
   },
@@ -54,6 +55,7 @@ for i in range(len(recipe_items_original)):
 
 previous_file_state = ''
 try:
+  # Prepends generated recipe
   recipe_file = open(rootdir + '/recipes/' + target + ".txt", 'r')
   previous_file_state = recipe_file.read()
   recipe_file.close()
@@ -65,11 +67,22 @@ recipe_file = open(rootdir + '/recipes/' + target + ".txt", 'w')
 # Write results of recipe to a .txt file
 now = datetime.datetime.now()
 recipe_file.write('Time: ' + str(now) + '\n')
-recipe_file.write('Question: ' + target_question + '\n')
+recipe_file.write('Prompt: ' + target_prompt + '\n')
 recipe_file.write('Response: \n{\n' + recipe_string + '\n}\n\n')
 recipe_file.write('------------------------------------------\n\n')
 recipe_file.write(previous_file_state)
 recipe_file.close()
+
+# END OF RECIPE GENERATION
+
+# Uncomment below if you made your own recipe file
+# try:
+#   recipe_items_original = open(rootdir + '/recipes/' + target + '.txt').read().splitlines()
+#   for i in range(len(recipe_items_original)):
+#     recipe_items_original[i] = recipe_items_original[i].strip().strip('\n')
+# except:
+#   print('MISSING RECIPE FOR： ' + target)
+#   exit()
 
 # Looping through each file in images folder
 for subdir, dirs, files in os.walk(rootdir + '/images'):
@@ -87,7 +100,7 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
       # Getting the base64 string
       base64_image = encode_image(image_path)
 
-      question = "I want to make " + target + ". What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items."
+      prompt = "I want to make " + target + ". What would I need? Just think about it. Now, are there any items in the picture that I would need? Ignore branding and numbers. Return answers in the form of words seperated by new lines, all lowercase. If not, return n/a. Take your time and double check the image for items."
 
       headers = {
         "Content-Type": "application/json",
@@ -102,7 +115,7 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
             "content": [
             {
                 "type": "text",
-                "text": question
+                "text": prompt
             },
             {
                 "type": "image_url",
@@ -132,7 +145,7 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         continue
       
 
-      # Asking the same question "loops" amount of times
+      # Asking the same prompt "loops" amount of times
       for loop in range(loops):
         response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
         
@@ -227,7 +240,7 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         # Formatting of response and writing to file
         now = datetime.datetime.now()
         output.write('Time: ' + str(now) + '\n')
-        output.write('Question: ' + question + '\n')
+        output.write('Prompt: ' + prompt + '\n')
         output.write('Response: \n{\n' + str(response.json()["choices"][0]["message"]["content"]) + '\n}\n\n')
         
         

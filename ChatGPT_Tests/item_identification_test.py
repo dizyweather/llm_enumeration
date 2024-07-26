@@ -15,10 +15,10 @@ def encode_image(image_path):
 # Path to the root directory of wherever you chose to put this repo.
 rootdir = os.path.dirname(os.path.realpath(__file__))
 
-# Question to be sent along with the image 
-question = "What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase."
+# Prompt to be sent along with the image 
+prompt = "What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase."
 
-# How many times do you want to ask the same question for each picture (to account for natural variance in response)
+# How many times do you want to ask the same prompt for each picture (to account for natural variance in response)
 loops = 2
 
 # Looping through each file in images folder
@@ -51,7 +51,7 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
             "content": [
               {
                 "type": "text",
-                "text": question
+                "text": prompt
               },
               {
                 "type": "image_url",
@@ -116,7 +116,7 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         # Formatting of response and writing to file
         now = datetime.datetime.now()
         output.write('Time: ' + str(now) + '\n')
-        output.write('Question: ' + question + '\n')
+        output.write('Prompt: ' + prompt + '\n')
         output.write('Response: \n{\n' + str(response.json()["choices"][0]["message"]["content"]) + '\n}\n\n')
         
         if autograde:
