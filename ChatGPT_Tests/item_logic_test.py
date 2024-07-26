@@ -183,9 +183,11 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         if response_items[0] == 'n/a':
           response_items.remove('n/a')
         
-        print(response_items)
-        print(image_items)
-        print(recipe_items)
+        # Debugging Print
+        # print(response_items)
+        # print(image_items)
+        # print(recipe_items)
+
         # Autograder
         for response_item in response_items:
           in_image = False
