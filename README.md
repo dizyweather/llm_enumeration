@@ -39,6 +39,7 @@ To use this file:
 - For each image you want to autograde, make a corresponding ```.items``` file with the ***same name*** in the ```items``` folder
    - This file should contain the actual items in the image (the answers) with each item having it's own line.
 - Edit the ```prompt = "____"``` variable to whatever prompt you want to test.
+  - For autograder to work, the prompt must instruct chatgpt to seperate responses by line AND use all lowercase letters!
 - Edit the ```loops = #``` variable to set how many times you want to ask the same prompt for each image.
 
 After, run ```count_id_results.py``` which will loop through the ```image_id_results``` folder and sum up all the items in the **Identified**, **Unsure**, and **Missed** sections together for each image into a corresponding .sum file in the ```image_id_summary``` folder.
@@ -69,6 +70,7 @@ To use the file:
 - Edit the ```target = "____"``` to your target recipe/craft.
 - Edit the ```target_prompt = "____"``` to affect how the recipe is generated.
 - Edit the ```prompt = "____"``` to test your prompt.
+  - For autograder to work, the prompt must instruct chatgpt to seperate responses by line AND use all lowercase letters!
 - Edit the ```loops = #``` for how many times you ask each image the question
 - Make a ```.items``` file for each image like in the previous program. If there is no file, it will skip the image.
 
