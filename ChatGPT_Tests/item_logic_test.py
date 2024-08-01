@@ -81,7 +81,7 @@ recipe_file.close()
 #   for i in range(len(recipe_items_original)):
 #     recipe_items_original[i] = recipe_items_original[i].strip().strip('\n')
 # except:
-#   print('MISSING RECIPE FOR： ' + target)
+#   print('MISSING RECIPE FOR: ' + target)
 #   exit()
 
 # Looping through each file in images folder

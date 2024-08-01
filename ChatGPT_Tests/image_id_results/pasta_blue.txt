@@ -1,5 +1,5 @@
-Time: 2024-07-18 20:27:12.172008
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 19:23:28.447540
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 rotelle
@@ -18,8 +18,8 @@ Unsure [1]:
 
 ---------------------------------------------------
 
-Time: 2024-07-18 20:27:02.511161
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 19:23:18.820155
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 rotelle
@@ -38,8 +38,8 @@ Unsure [1]:
 
 ---------------------------------------------------
 
-Time: 2024-07-18 20:23:50.329398
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 19:23:09.884847
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 rotelle
@@ -55,3 +55,146 @@ Missed [0]:
 
 Unsure [1]:
 	farfalle
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:23:01.068383
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+rotelle
+farfalle
+spaghetti
+}
+
+Identified [2]:
+	rotelle (rotelle)
+	spaghetti (spaghetti)
+
+Missed [0]:
+
+Unsure [1]:
+	farfalle
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:22:51.283154
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+rotelle
+farfalle
+spaghetti
+}
+
+Identified [2]:
+	rotelle (rotelle)
+	spaghetti (spaghetti)
+
+Missed [0]:
+
+Unsure [1]:
+	farfalle
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:22:42.608761
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+rotelle
+farfalle
+spaghetti
+}
+
+Identified [2]:
+	rotelle (rotelle)
+	spaghetti (spaghetti)
+
+Missed [0]:
+
+Unsure [1]:
+	farfalle
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:22:33.109980
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+rotelle
+farfalle
+spaghetti
+}
+
+Identified [2]:
+	rotelle (rotelle)
+	spaghetti (spaghetti)
+
+Missed [0]:
+
+Unsure [1]:
+	farfalle
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:22:23.734043
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+rotelle
+farfalle
+spaghetti
+}
+
+Identified [2]:
+	rotelle (rotelle)
+	spaghetti (spaghetti)
+
+Missed [0]:
+
+Unsure [1]:
+	farfalle
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:22:13.933233
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+rotelle
+farfalle
+spaghetti
+}
+
+Identified [2]:
+	rotelle (rotelle)
+	spaghetti (spaghetti)
+
+Missed [0]:
+
+Unsure [1]:
+	farfalle
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:22:03.055777
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+rotelle
+farfalle
+spaghetti
+}
+
+Identified [2]:
+	rotelle (rotelle)
+	spaghetti (spaghetti)
+
+Missed [0]:
+
+Unsure [1]:
+	farfalle
+
+---------------------------------------------------
+

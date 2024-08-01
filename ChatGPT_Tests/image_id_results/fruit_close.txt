@@ -1,5 +1,5 @@
-Time: 2024-07-17 19:50:02.112628
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 20:10:44.590669
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 apricots
@@ -23,8 +23,52 @@ Unsure [0]:
 
 ---------------------------------------------------
 
-Time: 2024-07-17 19:50:10.524063
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 20:10:34.916026
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+apricots
+nectarines
+peaches
+}
+
+Identified [3]:
+	peaches (peach)
+	apricots (apricot)
+	nectarines (nectarine)
+
+Missed [1]:
+	plum
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:10:24.329461
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+apricots
+nectarines
+donut peaches
+peaches
+}
+
+Identified [4]:
+	donut peaches (peach)
+	peaches (peach)
+	apricots (apricot)
+	nectarines (nectarine)
+
+Missed [1]:
+	plum
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:10:16.527546
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 apricots
@@ -48,8 +92,135 @@ Unsure [0]:
 
 ---------------------------------------------------
 
-Time: 2024-07-17 19:50:20.730988
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 20:10:09.392157
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+apricots
+white nectarines
+donut peaches
+peaches
+yellow nectarines
+}
+
+Identified [5]:
+	donut peaches (peach)
+	peaches (peach)
+	apricots (apricot)
+	white nectarines (nectarine)
+	yellow nectarines (nectarine)
+
+Missed [1]:
+	plum
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:10:00.238581
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+apricots
+white nectarines
+donut peaches
+peaches
+nectarines
+}
+
+Identified [5]:
+	donut peaches (peach)
+	peaches (peach)
+	apricots (apricot)
+	white nectarines (nectarine)
+	nectarines (nectarine)
+
+Missed [1]:
+	plum
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:09:52.295220
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+plums
+apricots
+white nectarines
+donut peaches
+peaches
+yellow nectarines
+}
+
+Identified [6]:
+	donut peaches (peach)
+	peaches (peach)
+	apricots (apricot)
+	white nectarines (nectarine)
+	yellow nectarines (nectarine)
+	plums (plum)
+
+Missed [0]:
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:09:43.996270
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+apricots
+white nectarines
+donut peaches
+peaches
+yellow nectarines
+}
+
+Identified [5]:
+	donut peaches (peach)
+	peaches (peach)
+	apricots (apricot)
+	white nectarines (nectarine)
+	yellow nectarines (nectarine)
+
+Missed [1]:
+	plum
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:09:36.383231
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+plums
+apricots
+nectarines
+peaches
+donut peaches
+yellow nectarines
+}
+
+Identified [6]:
+	peaches (peach)
+	donut peaches (peach)
+	apricots (apricot)
+	nectarines (nectarine)
+	yellow nectarines (nectarine)
+	plums (plum)
+
+Missed [0]:
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:09:28.100168
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 apricots

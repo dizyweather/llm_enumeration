@@ -1,27 +1,5 @@
-Time: 2024-07-17 19:46:45.433754
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
-Response: 
-{
-spaghetti
-whole grain penne
-protein plus pasta
-gluten free pasta
-}
-
-Identified [2]:
-	spaghetti (spaghetti)
-	whole grain penne (penne)
-
-Missed [0]:
-
-Unsure [2]:
-	protein plus pasta
-	gluten free pasta
-
----------------------------------------------------
-
-Time: 2024-07-17 19:46:53.914624
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 19:37:32.648167
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 spaghetti
@@ -41,12 +19,55 @@ Unsure [2]:
 
 ---------------------------------------------------
 
-Time: 2024-07-17 19:47:01.473327
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 19:37:24.515758
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+spaghetti
+whole grain pasta
+gluten free pasta
+}
+
+Identified [1]:
+	spaghetti (spaghetti)
+
+Missed [1]:
+	penne
+
+Unsure [2]:
+	whole grain pasta
+	gluten free pasta
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:37:17.750055
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 spaghetti
 pasta
+fettuccine
+}
+
+Identified [1]:
+	spaghetti (spaghetti)
+
+Missed [1]:
+	penne
+
+Unsure [2]:
+	pasta
+	fettuccine
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:37:10.762934
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+pasta
+spaghetti
+boxes
 whole grain
 gluten free
 }
@@ -57,10 +78,146 @@ Identified [1]:
 Missed [1]:
 	penne
 
+Unsure [4]:
+	pasta
+	boxes
+	whole grain
+	gluten free
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:37:02.968098
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+spaghetti
+whole grain pasta
+gluten free pasta
+protein pasta
+}
+
+Identified [1]:
+	spaghetti (spaghetti)
+
+Missed [1]:
+	penne
+
 Unsure [3]:
+	whole grain pasta
+	gluten free pasta
+	protein pasta
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:36:55.413619
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+spaghetti
+whole grain pasta
+gluten free pasta
+}
+
+Identified [1]:
+	spaghetti (spaghetti)
+
+Missed [1]:
+	penne
+
+Unsure [2]:
+	whole grain pasta
+	gluten free pasta
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:36:47.017980
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+spaghetti
+whole grain pasta
+gluten free pasta
+}
+
+Identified [1]:
+	spaghetti (spaghetti)
+
+Missed [1]:
+	penne
+
+Unsure [2]:
+	whole grain pasta
+	gluten free pasta
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:36:38.260182
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+spaghetti
+pasta
+whole grain
+gluten free
+protein
+}
+
+Identified [1]:
+	spaghetti (spaghetti)
+
+Missed [1]:
+	penne
+
+Unsure [4]:
 	pasta
 	whole grain
 	gluten free
+	protein
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:36:30.733915
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+spaghetti
+whole grain penne
+protein+ spaghetti
+gluten free penne
+}
+
+Identified [4]:
+	spaghetti (spaghetti)
+	protein+ spaghetti (spaghetti)
+	whole grain penne (penne)
+	gluten free penne (penne)
+
+Missed [0]:
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:36:24.266200
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+spaghetti
+100% whole grain pasta
+protein+ pasta
+gluten free pasta
+}
+
+Identified [1]:
+	spaghetti (spaghetti)
+
+Missed [1]:
+	penne
+
+Unsure [3]:
+	100% whole grain pasta
+	protein+ pasta
+	gluten free pasta
 
 ---------------------------------------------------
 

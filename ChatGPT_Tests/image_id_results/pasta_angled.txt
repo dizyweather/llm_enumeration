@@ -1,37 +1,276 @@
-Time: 2024-07-17 19:47:15.359771
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 19:39:13.832645
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 pasta
+egg pasta
+spaghetti
+macaroni
+croutons
 sauce
+}
+
+Identified [2]:
+	pasta (pasta)
+	egg pasta (pasta)
+
+Missed [1]:
+	sause
+
+Unsure [4]:
+	spaghetti
+	macaroni
+	croutons
+	sauce
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:39:01.846278
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+croutons
+sauce
+egg pasta
+pasta
+linguine
+penne rigate
+spaghetti
 crackers
-broth
-croutons
-stuffing
 }
 
-Identified [1]:
+Identified [2]:
+	egg pasta (pasta)
 	pasta (pasta)
 
 Missed [1]:
 	sause
 
-Unsure [5]:
+Unsure [6]:
+	croutons
 	sauce
+	linguine
+	penne rigate
+	spaghetti
 	crackers
-	broth
-	croutons
-	stuffing
 
 ---------------------------------------------------
 
-Time: 2024-07-17 19:47:24.786995
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 19:38:52.799510
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+croutons
+sauce
+pasta
+noodles
+boxed pasta
+bagged pasta
+stockings
+pouches
+penne rigate
+thin spaghetti
+linguine
+egg pasta
+}
+
+Identified [4]:
+	pasta (pasta)
+	boxed pasta (pasta)
+	bagged pasta (pasta)
+	egg pasta (pasta)
+
+Missed [1]:
+	sause
+
+Unsure [8]:
+	croutons
+	sauce
+	noodles
+	stockings
+	pouches
+	penne rigate
+	thin spaghetti
+	linguine
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:38:42.980420
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+croutons
+pasta
+cake liners
+pasta sauce
+}
+
+Identified [2]:
+	pasta (pasta)
+	pasta sauce (pasta)
+
+Missed [1]:
+	sause
+
+Unsure [2]:
+	croutons
+	cake liners
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:38:33.868172
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 pasta
+sauce
+croutons
+packaged food
+boxes
+bags
+packets
+hooks
+shelves
+}
+
+Identified [1]:
+	pasta (pasta)
+
+Missed [1]:
+	sause
+
+Unsure [8]:
+	sauce
+	croutons
+	packaged food
+	boxes
+	bags
+	packets
+	hooks
+	shelves
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:38:23.145833
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+egg pasta
+pasta
+spaghetti
+rigatoni
+penne
+linguine
+alfredo sauce
+croutons
+}
+
+Identified [2]:
+	egg pasta (pasta)
+	pasta (pasta)
+
+Missed [1]:
+	sause
+
+Unsure [6]:
+	spaghetti
+	rigatoni
+	penne
+	linguine
+	alfredo sauce
+	croutons
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:38:13.651689
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
 croutons
 sauce
+boxes
+packets
+bags
+display
+cards
+}
+
+Identified [0]:
+
+Missed [2]:
+	pasta
+	sause
+
+Unsure [7]:
+	croutons
+	sauce
+	boxes
+	packets
+	bags
+	display
+	cards
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:38:03.468591
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+pasta
+sauce
+croutons
+packaging
+boxes
+bags
+plastic hangers
+}
+
+Identified [1]:
+	pasta (pasta)
+
+Missed [1]:
+	sause
+
+Unsure [6]:
+	sauce
+	croutons
+	packaging
+	boxes
+	bags
+	plastic hangers
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:37:53.808765
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+sauce  
+croutons  
+pasta  
+pasta
+}
+
+Identified [2]:
+	pasta (pasta)
+	pasta (pasta)
+
+Missed [1]:
+	sause
+
+Unsure [2]:
+	sauce
+	croutons
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:37:42.124271
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+pasta
+sauce
+croutons
 }
 
 Identified [1]:
@@ -41,29 +280,8 @@ Missed [1]:
 	sause
 
 Unsure [2]:
-	croutons
 	sauce
-
----------------------------------------------------
-
-Time: 2024-07-17 19:47:34.407577
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
-Response: 
-{
-pasta
-croutons
-sauce
-}
-
-Identified [1]:
-	pasta (pasta)
-
-Missed [1]:
-	sause
-
-Unsure [2]:
 	croutons
-	sauce
 
 ---------------------------------------------------
 

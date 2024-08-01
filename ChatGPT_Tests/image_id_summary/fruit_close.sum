@@ -1,14 +1,16 @@
 Identified
-	donut peaches (peach) [3]
-	peaches (peach) [3]
-	apricots (apricot) [3]
-	white nectarines (nectarine) [3]
-	yellow nectarines (nectarine) [3]
-	--Sum [15]--
+	donut peaches (peach) [9]
+	peaches (peach) [10]
+	apricots (apricot) [10]
+	white nectarines (nectarine) [7]
+	yellow nectarines (nectarine) [7]
+	nectarines (nectarine) [4]
+	plums (plum) [2]
+	--Sum [49]--
 
 Missed
-	plum [3]
-	--Sum [3]--
+	plum [8]
+	--Sum [8]--
 
 Unsure
 	--Sum [0]--

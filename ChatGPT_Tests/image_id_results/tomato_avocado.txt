@@ -1,5 +1,5 @@
-Time: 2024-07-17 19:51:28.285239
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 20:15:17.431909
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 avocados
@@ -16,8 +16,8 @@ Unsure [0]:
 
 ---------------------------------------------------
 
-Time: 2024-07-17 19:51:38.912774
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 20:15:07.490220
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 avocados
@@ -34,8 +34,134 @@ Unsure [0]:
 
 ---------------------------------------------------
 
-Time: 2024-07-17 19:51:48.414990
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 20:14:58.298923
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+avocados
+tomatoes
+}
+
+Identified [2]:
+	avocados (avocado)
+	tomatoes (tomato)
+
+Missed [0]:
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:14:48.349645
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+avocados
+tomatoes
+}
+
+Identified [2]:
+	avocados (avocado)
+	tomatoes (tomato)
+
+Missed [0]:
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:14:38.848743
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+avocados
+tomatoes
+}
+
+Identified [2]:
+	avocados (avocado)
+	tomatoes (tomato)
+
+Missed [0]:
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:14:28.856711
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+avocados
+tomatoes
+}
+
+Identified [2]:
+	avocados (avocado)
+	tomatoes (tomato)
+
+Missed [0]:
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:14:19.949727
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+avocados
+tomatoes
+}
+
+Identified [2]:
+	avocados (avocado)
+	tomatoes (tomato)
+
+Missed [0]:
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:14:09.625859
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+avocados
+tomatoes
+}
+
+Identified [2]:
+	avocados (avocado)
+	tomatoes (tomato)
+
+Missed [0]:
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:14:00.230053
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+avocados
+tomatoes
+}
+
+Identified [2]:
+	avocados (avocado)
+	tomatoes (tomato)
+
+Missed [0]:
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:13:49.304442
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 avocados

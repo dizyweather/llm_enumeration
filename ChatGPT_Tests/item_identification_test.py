@@ -5,10 +5,25 @@ import os
 from dotenv import load_dotenv, find_dotenv
 _ = load_dotenv(find_dotenv())
 
+from PIL import Image
+
+
 api_key=os.getenv("OPENAI_API_KEY")
 
 # Function to encode the image
 def encode_image(image_path):
+  # image = Image.open(image_path)
+    
+  # # next 3 lines strip exif
+  # data = list(image.getdata())
+  # image_without_exif = Image.new(image.mode, image.size)
+  # image_without_exif.putdata(data)
+      
+  # image_without_exif.save('image_file_without_exif.jpeg')
+
+  # # as a good practice, close the file handler after saving the image.
+  # image_without_exif.close()
+  
   with open(image_path, "rb") as image_file:
     return base64.b64encode(image_file.read()).decode('utf-8')
 
@@ -19,7 +34,7 @@ rootdir = os.path.dirname(os.path.realpath(__file__))
 prompt = "What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase."
 
 # How many times do you want to ask the same prompt for each picture (to account for natural variance in response)
-loops = 2
+loops = 10
 
 # Looping through each file in images folder
 for subdir, dirs, files in os.walk(rootdir + '/images'):
@@ -92,9 +107,15 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         missed = []
         data =  []
         
-        for item in response.json()["choices"][0]["message"]["content"].splitlines():
-          
-          data.append(item.strip().strip('\n'))
+        try:
+          for item in response.json()["choices"][0]["message"]["content"].splitlines():
+            data.append(item.strip().strip('\n'))
+        except:
+          print('\n' + file + " encountered a problem! Skipping this loop!")
+          print(response.json())
+          print(os.stat(image_path).st_size)
+          print('\n')
+          continue
 
         # Autograding
         for key_item in answers:
@@ -117,7 +138,15 @@ for subdir, dirs, files in os.walk(rootdir + '/images'):
         now = datetime.datetime.now()
         output.write('Time: ' + str(now) + '\n')
         output.write('Prompt: ' + prompt + '\n')
-        output.write('Response: \n{\n' + str(response.json()["choices"][0]["message"]["content"]) + '\n}\n\n')
+        try:
+          output.write('Response: \n{\n' + str(response.json()["choices"][0]["message"]["content"]) + '\n}\n\n')
+        except:
+          output.write('Response: \n{\n' + "Encountered problem converting json to string!" + '\n}\n\n')
+          print('\n' + file + " encountered a problem!")
+          print(response.json())
+          print('\n')
+          
+        
         
         if autograde:
           output.write('Identified [' + str(len(identified)) + ']:\n')

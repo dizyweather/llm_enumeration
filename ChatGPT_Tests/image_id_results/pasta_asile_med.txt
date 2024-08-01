@@ -1,62 +1,30 @@
-Time: 2024-07-17 19:48:23.248399
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 19:42:42.383987
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
-penne
-elbows
-cavatappi
-ziti
-medium shells
-spaghetti
-linguine
-fettuccine
-whole grain
-gluten free
+penne 
+elbows 
+cavatappi 
+ziti 
+medium shells 
+spaghetti 
+fettuccine 
+linguine 
+whole grain penne 
+gluten free elbows
 }
 
-Identified [8]:
+Identified [10]:
 	spaghetti (spaghetti)
 	cavatappi (cavatappi)
 	penne (penne)
+	whole grain penne (penne)
 	ziti (ziti)
 	medium shells (shell)
 	fettuccine (fettuccine)
 	linguine (linguine)
 	elbows (elbow)
-
-Missed [2]:
-	bucatini
-	angel hair
-
-Unsure [2]:
-	whole grain
-	gluten free
-
----------------------------------------------------
-
-Time: 2024-07-17 19:48:33.164171
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
-Response: 
-{
-penne
-elbows
-cavatappi
-medium shells
-ziti
-spaghetti
-fettuccine
-linguine
-}
-
-Identified [8]:
-	spaghetti (spaghetti)
-	cavatappi (cavatappi)
-	penne (penne)
-	ziti (ziti)
-	medium shells (shell)
-	fettuccine (fettuccine)
-	linguine (linguine)
-	elbows (elbow)
+	gluten free elbows (elbow)
 
 Missed [2]:
 	bucatini
@@ -66,8 +34,8 @@ Unsure [0]:
 
 ---------------------------------------------------
 
-Time: 2024-07-17 19:48:43.579593
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 19:42:29.368503
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 penne
@@ -93,6 +61,293 @@ Identified [10]:
 	linguine (linguine)
 	elbows (elbow)
 	gluten free elbows (elbow)
+
+Missed [2]:
+	bucatini
+	angel hair
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:42:20.576457
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+penne
+elbows
+cavatappi
+ziti
+medium shells
+spaghetti
+fettucine
+linguine
+}
+
+Identified [7]:
+	spaghetti (spaghetti)
+	cavatappi (cavatappi)
+	penne (penne)
+	ziti (ziti)
+	medium shells (shell)
+	linguine (linguine)
+	elbows (elbow)
+
+Missed [3]:
+	fettuccine
+	bucatini
+	angel hair
+
+Unsure [1]:
+	fettucine
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:42:11.929024
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+penne
+elbows
+cavatappi
+ziti
+medium shells
+penne rigate
+cavatappi maccheroni prodotti
+ziti maccheroni prodotti
+spaghetti
+fettuccine
+linguine
+bucatini
+gluten free elbows
+whole grain penne
+}
+
+Identified [14]:
+	spaghetti (spaghetti)
+	cavatappi (cavatappi)
+	cavatappi maccheroni prodotti (cavatappi)
+	penne (penne)
+	penne rigate (penne)
+	whole grain penne (penne)
+	ziti (ziti)
+	ziti maccheroni prodotti (ziti)
+	medium shells (shell)
+	fettuccine (fettuccine)
+	linguine (linguine)
+	bucatini (bucatini)
+	elbows (elbow)
+	gluten free elbows (elbow)
+
+Missed [1]:
+	angel hair
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:42:02.237549
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+penne rigate
+elbows
+cavatappi
+medium shells
+ziti
+spaghetti
+fettuccine
+linguine
+whole grain penne
+gluten free elbows
+}
+
+Identified [10]:
+	spaghetti (spaghetti)
+	cavatappi (cavatappi)
+	penne rigate (penne)
+	whole grain penne (penne)
+	ziti (ziti)
+	medium shells (shell)
+	fettuccine (fettuccine)
+	linguine (linguine)
+	elbows (elbow)
+	gluten free elbows (elbow)
+
+Missed [2]:
+	bucatini
+	angel hair
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:41:51.984925
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+penne
+elbows
+cavatappi
+ziti
+medium shells
+spaghetti
+fettuccine
+linguine
+bucatini
+mafaldine
+whole grain penne
+gluten free elbows
+}
+
+Identified [11]:
+	spaghetti (spaghetti)
+	cavatappi (cavatappi)
+	penne (penne)
+	whole grain penne (penne)
+	ziti (ziti)
+	medium shells (shell)
+	fettuccine (fettuccine)
+	linguine (linguine)
+	bucatini (bucatini)
+	elbows (elbow)
+	gluten free elbows (elbow)
+
+Missed [1]:
+	angel hair
+
+Unsure [1]:
+	mafaldine
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:41:40.735042
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+penne rigate
+elbows
+cavatappi
+ziti
+medium shells
+spaghetti
+whole grain penne
+fettuccine
+linguine
+gluten free elbows
+}
+
+Identified [10]:
+	spaghetti (spaghetti)
+	cavatappi (cavatappi)
+	penne rigate (penne)
+	whole grain penne (penne)
+	ziti (ziti)
+	medium shells (shell)
+	fettuccine (fettuccine)
+	linguine (linguine)
+	elbows (elbow)
+	gluten free elbows (elbow)
+
+Missed [2]:
+	bucatini
+	angel hair
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:41:31.060096
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+penne
+elbows
+cavatappi
+ziti
+medium shells
+spaghetti
+fettuccine
+linguine
+whole grain penne
+gluten free elbows
+}
+
+Identified [10]:
+	spaghetti (spaghetti)
+	cavatappi (cavatappi)
+	penne (penne)
+	whole grain penne (penne)
+	ziti (ziti)
+	medium shells (shell)
+	fettuccine (fettuccine)
+	linguine (linguine)
+	elbows (elbow)
+	gluten free elbows (elbow)
+
+Missed [2]:
+	bucatini
+	angel hair
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:41:21.263145
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+penne
+elbows
+cavatappi
+ziti
+medium shells
+spaghetti
+fettuccine
+linguine
+}
+
+Identified [8]:
+	spaghetti (spaghetti)
+	cavatappi (cavatappi)
+	penne (penne)
+	ziti (ziti)
+	medium shells (shell)
+	fettuccine (fettuccine)
+	linguine (linguine)
+	elbows (elbow)
+
+Missed [2]:
+	bucatini
+	angel hair
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:41:10.842945
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+penne  
+elbows  
+ziti  
+medium shells  
+cavatappi  
+spaghetti  
+fettuccine  
+linguine
+}
+
+Identified [8]:
+	spaghetti (spaghetti)
+	cavatappi (cavatappi)
+	penne (penne)
+	ziti (ziti)
+	medium shells (shell)
+	fettuccine (fettuccine)
+	linguine (linguine)
+	elbows (elbow)
 
 Missed [2]:
 	bucatini

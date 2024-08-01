@@ -1,156 +1,395 @@
-Time: 2024-07-17 19:48:55.475510
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 20:26:26.677730
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
-edamame fettuccine
-linguine
-palmini
-protein pasta
-yellow lentil and brown rice
-red lentil and brown rice
-pasta shells
-pasta wheels
-jubmo shells
-manicotti 
-rigatoni
-fusilli
-cavatappi
-elbows
-penne rigate
-wide egg noodles
-gluten free penne rigate
-gluten free elbows
-}
-
-Identified [12]:
-	manicotti (manicotti)
-	pasta shells (shell)
-	jubmo shells (shell)
-	penne rigate (penne)
-	gluten free penne rigate (penne)
-	fusilli (fusilli)
-	rigatoni (rigatoni)
-	elbows (elbow)
-	gluten free elbows (elbow)
-	cavatappi (cavatappi)
-	wide egg noodles (noodle)
-	edamame fettuccine (fettuccine)
-
-Missed [3]:
-	spaghetti
-	lasagna
-	trottole
-
-Unsure [6]:
-	linguine
-	palmini
-	protein pasta
-	yellow lentil and brown rice
-	red lentil and brown rice
-	pasta wheels
-
----------------------------------------------------
-
-Time: 2024-07-17 19:49:07.126796
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
-Response: 
-{
-fettuccine
-hearts of palm linguine
-hearts of palm lasagna
-hearts of palm angel hair
-jumbo shells
-manicotti
-jovial brown rice farfalle
-brown rice penne
-brown rice elbows
-brown rice fusilli
-brown rice spaghetti
-penne rigate
-elbows
-rigatoni
-cavatappi
-fettuccine
-rigate
-penne
-fusilli
-elbows
-}
-
-Identified [16]:
-	brown rice spaghetti (spaghetti)
-	hearts of palm lasagna (lasagna)
-	manicotti (manicotti)
-	jumbo shells (shell)
-	brown rice penne (penne)
-	penne rigate (penne)
-	penne (penne)
-	brown rice fusilli (fusilli)
-	fusilli (fusilli)
-	rigatoni (rigatoni)
-	brown rice elbows (elbow)
-	elbows (elbow)
-	elbows (elbow)
-	cavatappi (cavatappi)
-	fettuccine (fettuccine)
-	fettuccine (fettuccine)
-
-Missed [2]:
-	trottole
-	noodle
-
-Unsure [4]:
-	hearts of palm linguine
-	hearts of palm angel hair
-	jovial brown rice farfalle
-	rigate
-
----------------------------------------------------
-
-Time: 2024-07-17 19:49:17.468023
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
-Response: 
-{
-fettuccine
-hearts of palm linguine
+stuffed shells
 lasagna
-manicotti
-spaghetti
-penne rigate
-rigatoni
-jumbo shells
-rotelle
-fusilloni
+ravioli
 penne
-rigatoni
-elbows
-cavatappi
-spaghetti
+linguine
+gnocchi
+pastina
+rotini
 }
 
-Identified [12]:
-	spaghetti (spaghetti)
-	spaghetti (spaghetti)
+Identified [3]:
 	lasagna (lasagna)
-	manicotti (manicotti)
-	jumbo shells (shell)
-	penne rigate (penne)
+	stuffed shells (shell)
 	penne (penne)
-	rigatoni (rigatoni)
-	rigatoni (rigatoni)
-	elbows (elbow)
-	cavatappi (cavatappi)
-	fettuccine (fettuccine)
 
-Missed [3]:
+Missed [9]:
+	spaghetti
+	manicotti
 	fusilli
 	trottole
+	rigatoni
+	elbow
+	cavatappi
+	noodle
+	fettuccine
+
+Unsure [5]:
+	ravioli
+	linguine
+	gnocchi
+	pastina
+	rotini
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:26:20.083622
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+lasagna
+fettuccine
+ravioli
+tortellini
+napkins
+}
+
+Identified [2]:
+	lasagna (lasagna)
+	fettuccine (fettuccine)
+
+Missed [10]:
+	spaghetti
+	manicotti
+	shell
+	penne
+	fusilli
+	trottole
+	rigatoni
+	elbow
+	cavatappi
 	noodle
 
 Unsure [3]:
+	ravioli
+	tortellini
+	napkins
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:26:13.030504
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+pasta
+noodles 
+linguine 
+ravioli
+penne 
+spaghetti 
+zoodles 
+lasagna
+}
+
+Identified [4]:
+	spaghetti (spaghetti)
+	lasagna (lasagna)
+	penne (penne)
+	noodles (noodle)
+
+Missed [8]:
+	manicotti
+	shell
+	fusilli
+	trottole
+	rigatoni
+	elbow
+	cavatappi
+	fettuccine
+
+Unsure [4]:
+	pasta
+	linguine
+	ravioli
+	zoodles
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:26:07.963839
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+pasta
+lasagna
+ravioli
+noodles
+rigatoni
+penne
+shells
+}
+
+Identified [5]:
+	lasagna (lasagna)
+	shells (shell)
+	penne (penne)
+	rigatoni (rigatoni)
+	noodles (noodle)
+
+Missed [7]:
+	spaghetti
+	manicotti
+	fusilli
+	trottole
+	elbow
+	cavatappi
+	fettuccine
+
+Unsure [2]:
+	pasta
+	ravioli
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:26:01.404431
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+pasta
+dumplings
+macaroni and cheese
+lasagna
+vegetable pasta
+fettuccine
+penne
+bean pasta
+}
+
+Identified [3]:
+	lasagna (lasagna)
+	penne (penne)
+	fettuccine (fettuccine)
+
+Missed [9]:
+	spaghetti
+	manicotti
+	shell
+	fusilli
+	trottole
+	rigatoni
+	elbow
+	cavatappi
+	noodle
+
+Unsure [5]:
+	pasta
+	dumplings
+	macaroni and cheese
+	vegetable pasta
+	bean pasta
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:25:55.016774
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+gnocchi
+ravioli
+dumplings
+pasta
+linguine
+fettuccine
+rotini
+penne
+vegetable pasta
+elbows
+palmini
+}
+
+Identified [3]:
+	penne (penne)
+	elbows (elbow)
+	fettuccine (fettuccine)
+
+Missed [9]:
+	spaghetti
+	lasagna
+	manicotti
+	shell
+	fusilli
+	trottole
+	rigatoni
+	cavatappi
+	noodle
+
+Unsure [8]:
+	gnocchi
+	ravioli
+	dumplings
+	pasta
+	linguine
+	rotini
+	vegetable pasta
+	palmini
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:25:44.716338
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+lasagna sheets 
+sauerkraut spaetzle 
+egg pappardelle
+cannelloni noodles
+fettuccine
+hearts of palm linguine
+pasta variety pack
+beef noodle soup
+}
+
+Identified [4]:
+	lasagna sheets (lasagna)
+	cannelloni noodles (noodle)
+	beef noodle soup (noodle)
+	fettuccine (fettuccine)
+
+Missed [9]:
+	spaghetti
+	manicotti
+	shell
+	penne
+	fusilli
+	trottole
+	rigatoni
+	elbow
+	cavatappi
+
+Unsure [4]:
+	sauerkraut spaetzle
+	egg pappardelle
 	hearts of palm linguine
-	rotelle
-	fusilloni
+	pasta variety pack
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:25:37.687026
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+pasta
+pasta
+pasta
+pasta
+pasta
+pasta
+pasta
+pasta
+pasta
+pasta
+pasta
+}
+
+Identified [0]:
+
+Missed [12]:
+	spaghetti
+	lasagna
+	manicotti
+	shell
+	penne
+	fusilli
+	trottole
+	rigatoni
+	elbow
+	cavatappi
+	noodle
+	fettuccine
+
+Unsure [11]:
+	pasta
+	pasta
+	pasta
+	pasta
+	pasta
+	pasta
+	pasta
+	pasta
+	pasta
+	pasta
+	pasta
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:25:30.420837
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+pasta
+crackers
+breadsticks
+tortellini
+hearts of palm
+gnocchi
+lasagna
+}
+
+Identified [1]:
+	lasagna (lasagna)
+
+Missed [11]:
+	spaghetti
+	manicotti
+	shell
+	penne
+	fusilli
+	trottole
+	rigatoni
+	elbow
+	cavatappi
+	noodle
+	fettuccine
+
+Unsure [6]:
+	pasta
+	crackers
+	breadsticks
+	tortellini
+	hearts of palm
+	gnocchi
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:25:25.046273
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+pasta
+sauce mix
+crackers
+chips
+noodles
+macaroni
+boxed meals
+}
+
+Identified [1]:
+	noodles (noodle)
+
+Missed [11]:
+	spaghetti
+	lasagna
+	manicotti
+	shell
+	penne
+	fusilli
+	trottole
+	rigatoni
+	elbow
+	cavatappi
+	fettuccine
+
+Unsure [6]:
+	pasta
+	sauce mix
+	crackers
+	chips
+	macaroni
+	boxed meals
 
 ---------------------------------------------------
 

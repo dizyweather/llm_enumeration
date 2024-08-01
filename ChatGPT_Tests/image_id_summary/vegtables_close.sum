@@ -1,19 +1,24 @@
 Identified
-	ginger root (ginger) [1]
-	shallots (shallot) [3]
-	garlic (garlic) [3]
-	tomatoes (tomato) [3]
-	ginger (ginger) [2]
+	ginger (ginger) [6]
+	shallot (shallot) [2]
+	garlic (garlic) [10]
+	tomato (tomato) [3]
+	tomatillo (tomatillo) [3]
+	shallots (shallot) [7]
+	tomatoes (tomato) [7]
+	tomatillos (tomatillo) [5]
+	ginger root (ginger) [4]
 	avocados (avocado) [2]
-	tomatillos (tomatillo) [1]
-	--Sum [15]--
+	green tomatoes (tomato) [1]
+	--Sum [50]--
 
 Missed
-	avocado [1]
+	avocado [8]
 	tomatillo [2]
-	--Sum [3]--
+	shallot [1]
+	--Sum [11]--
 
 Unsure
-	brussels sprouts [1]
-	brussel sprouts [1]
+	green vegetables [1]
+	onions [1]
 	--Sum [2]--

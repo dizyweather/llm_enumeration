@@ -1,56 +1,13 @@
-Time: 2024-07-17 19:49:27.662852
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 20:09:03.509572
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 manicotti
-shells
-egg fettuccine
-elbows
-supermac
-macaroni
-rigatoni
-penne rigate
-spaghetti
-thin spaghetti
-gluten free elbows
-whole grain elbows
-}
-
-Identified [8]:
-	shells (shell)
-	spaghetti (spaghetti)
-	thin spaghetti (spaghetti)
-	manicotti (manicotti)
-	elbows (elbow)
-	gluten free elbows (elbow)
-	whole grain elbows (elbow)
-	penne rigate (penne)
-
-Missed [2]:
-	angel hair
-	rotini
-
-Unsure [4]:
-	egg fettuccine
-	supermac
-	macaroni
-	rigatoni
-
----------------------------------------------------
-
-Time: 2024-07-17 19:49:36.966136
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
-Response: 
-{
 pasta
-manicotti
 shells
 elbows
-rigatoni
-fettuccine
 spaghetti
-thin spaghetti
-whole grain
+whole grain spaghetti
 protein pasta
 gluten free pasta
 }
@@ -58,7 +15,7 @@ gluten free pasta
 Identified [5]:
 	shells (shell)
 	spaghetti (spaghetti)
-	thin spaghetti (spaghetti)
+	whole grain spaghetti (spaghetti)
 	manicotti (manicotti)
 	elbows (elbow)
 
@@ -67,44 +24,300 @@ Missed [3]:
 	penne
 	rotini
 
-Unsure [6]:
+Unsure [3]:
 	pasta
-	rigatoni
-	fettuccine
-	whole grain
 	protein pasta
 	gluten free pasta
 
 ---------------------------------------------------
 
-Time: 2024-07-17 19:49:46.319176
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 20:08:54.681280
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
-manicotti
-shells
-spaghetti
-trio italiano
-100% whole grain
-protein+
-gluten free elbows
+manicotti  
+shells  
+thin spaghetti  
+elbows  
+100% whole grain  
+gluten free  
+protein+ spaghetti
 }
 
-Identified [4]:
+Identified [5]:
 	shells (shell)
-	spaghetti (spaghetti)
+	thin spaghetti (spaghetti)
+	protein+ spaghetti (spaghetti)
 	manicotti (manicotti)
-	gluten free elbows (elbow)
+	elbows (elbow)
 
 Missed [3]:
 	angel hair
 	penne
 	rotini
 
-Unsure [3]:
-	trio italiano
+Unsure [2]:
 	100% whole grain
-	protein+
+	gluten free
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:08:43.493959
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+manicotti  
+shells  
+elbows  
+wide egg noodles  
+spaghetti  
+rotini  
+whole grain  
+protein+ thin spaghetti  
+gluten free penne
+}
+
+Identified [7]:
+	shells (shell)
+	spaghetti (spaghetti)
+	protein+ thin spaghetti (spaghetti)
+	manicotti (manicotti)
+	elbows (elbow)
+	gluten free penne (penne)
+	rotini (rotini)
+
+Missed [1]:
+	angel hair
+
+Unsure [2]:
+	wide egg noodles
+	whole grain
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:08:33.942832
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+manicotti
+shells
+elbows
+spaghetti
+protein+ spaghetti
+gluten free spaghetti
+}
+
+Identified [6]:
+	shells (shell)
+	spaghetti (spaghetti)
+	protein+ spaghetti (spaghetti)
+	gluten free spaghetti (spaghetti)
+	manicotti (manicotti)
+	elbows (elbow)
+
+Missed [3]:
+	angel hair
+	penne
+	rotini
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:08:25.012373
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+manicotti  
+rigatoni  
+spaghetti  
+elbows  
+shells  
+penne  
+linguine  
+whole grain   
+gluten free
+}
+
+Identified [5]:
+	shells (shell)
+	spaghetti (spaghetti)
+	manicotti (manicotti)
+	elbows (elbow)
+	penne (penne)
+
+Missed [2]:
+	angel hair
+	rotini
+
+Unsure [4]:
+	rigatoni
+	linguine
+	whole grain
+	gluten free
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:08:15.538395
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+manicotti
+shells
+macaroni
+elbow
+rotini
+rigatoni
+mostaccioli
+spaghetti
+whole grain rotini
+protein spaghetti
+gluten free spaghetti
+}
+
+Identified [8]:
+	shells (shell)
+	spaghetti (spaghetti)
+	protein spaghetti (spaghetti)
+	gluten free spaghetti (spaghetti)
+	manicotti (manicotti)
+	elbow (elbow)
+	rotini (rotini)
+	whole grain rotini (rotini)
+
+Missed [2]:
+	angel hair
+	penne
+
+Unsure [3]:
+	macaroni
+	rigatoni
+	mostaccioli
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:08:07.242813
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+manicotti
+spaghetti
+shells
+protein spaghetti
+whole grain pasta
+gluten free pasta
+}
+
+Identified [4]:
+	shells (shell)
+	spaghetti (spaghetti)
+	protein spaghetti (spaghetti)
+	manicotti (manicotti)
+
+Missed [4]:
+	elbow
+	angel hair
+	penne
+	rotini
+
+Unsure [2]:
+	whole grain pasta
+	gluten free pasta
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:07:58.512579
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+spaghetti
+macaroni
+shells
+elbow
+penne
+fettuccine
+protein plus
+gluten free
+}
+
+Identified [4]:
+	shells (shell)
+	spaghetti (spaghetti)
+	elbow (elbow)
+	penne (penne)
+
+Missed [3]:
+	manicotti
+	angel hair
+	rotini
+
+Unsure [4]:
+	macaroni
+	fettuccine
+	protein plus
+	gluten free
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:07:49.309459
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+manicotti
+shells
+elbows
+rotini
+thin spaghetti
+spaghetti
+whole grain pasta
+gluten free pasta
+}
+
+Identified [6]:
+	shells (shell)
+	thin spaghetti (spaghetti)
+	spaghetti (spaghetti)
+	manicotti (manicotti)
+	elbows (elbow)
+	rotini (rotini)
+
+Missed [2]:
+	angel hair
+	penne
+
+Unsure [2]:
+	whole grain pasta
+	gluten free pasta
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:07:40.954458
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+manicotti
+shells
+spaghetti
+elbows
+penne
+thin spaghetti
+gluten free spaghetti
+}
+
+Identified [7]:
+	shells (shell)
+	spaghetti (spaghetti)
+	thin spaghetti (spaghetti)
+	gluten free spaghetti (spaghetti)
+	manicotti (manicotti)
+	elbows (elbow)
+	penne (penne)
+
+Missed [2]:
+	angel hair
+	rotini
+
+Unsure [0]:
 
 ---------------------------------------------------
 

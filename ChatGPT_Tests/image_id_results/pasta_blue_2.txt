@@ -1,0 +1,182 @@
+Time: 2024-07-27 19:25:01.638956
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+spaghetti
+pasta
+angel hair
+}
+
+Identified [1]:
+	spaghetti (spaghetti)
+
+Missed [0]:
+
+Unsure [2]:
+	pasta
+	angel hair
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:24:53.331891
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+spaghetti
+angel hair
+}
+
+Identified [1]:
+	spaghetti (spaghetti)
+
+Missed [0]:
+
+Unsure [1]:
+	angel hair
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:24:42.090292
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+spaghetti
+pasta
+}
+
+Identified [1]:
+	spaghetti (spaghetti)
+
+Missed [0]:
+
+Unsure [1]:
+	pasta
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:24:33.683053
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+spaghetti
+pasta
+}
+
+Identified [1]:
+	spaghetti (spaghetti)
+
+Missed [0]:
+
+Unsure [1]:
+	pasta
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:24:23.424036
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+spaghetti
+angel hair
+}
+
+Identified [1]:
+	spaghetti (spaghetti)
+
+Missed [0]:
+
+Unsure [1]:
+	angel hair
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:24:13.207731
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+spaghetti
+pasta
+}
+
+Identified [1]:
+	spaghetti (spaghetti)
+
+Missed [0]:
+
+Unsure [1]:
+	pasta
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:24:05.004431
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+spaghetti
+pasta
+angel hair
+}
+
+Identified [1]:
+	spaghetti (spaghetti)
+
+Missed [0]:
+
+Unsure [2]:
+	pasta
+	angel hair
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:23:56.622952
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+spaghetti
+angel hair
+}
+
+Identified [1]:
+	spaghetti (spaghetti)
+
+Missed [0]:
+
+Unsure [1]:
+	angel hair
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:23:47.617105
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+spaghetti
+pasta
+}
+
+Identified [1]:
+	spaghetti (spaghetti)
+
+Missed [0]:
+
+Unsure [1]:
+	pasta
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:23:37.681900
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+spaghetti
+}
+
+Identified [1]:
+	spaghetti (spaghetti)
+
+Missed [0]:
+
+Unsure [0]:
+
+---------------------------------------------------
+

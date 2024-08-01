@@ -1,5 +1,5 @@
-Time: 2024-07-17 19:46:17.174665
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 19:36:15.761589
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 small shells
@@ -18,14 +18,33 @@ Unsure [0]:
 
 ---------------------------------------------------
 
-Time: 2024-07-17 19:46:26.973039
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 19:36:05.943709
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+shells
+elbows
+spaghetti
+}
+
+Identified [3]:
+	shells (shell)
+	spaghetti (spaghetti)
+	elbows (elbow)
+
+Missed [0]:
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:35:54.391876
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 small shells
 large elbows
 spaghetti
-
 }
 
 Identified [3]:
@@ -39,8 +58,130 @@ Unsure [0]:
 
 ---------------------------------------------------
 
-Time: 2024-07-17 19:46:37.493557
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 19:35:44.594169
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+small shells
+large elbows
+spaghetti
+egg thin ribbon pasta
+}
+
+Identified [3]:
+	small shells (shell)
+	spaghetti (spaghetti)
+	large elbows (elbow)
+
+Missed [0]:
+
+Unsure [1]:
+	egg thin ribbon pasta
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:35:34.685760
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+small shells
+large elbows
+spaghetti
+}
+
+Identified [3]:
+	small shells (shell)
+	spaghetti (spaghetti)
+	large elbows (elbow)
+
+Missed [0]:
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:35:26.480272
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+small shells
+large elbows
+spaghetti
+}
+
+Identified [3]:
+	small shells (shell)
+	spaghetti (spaghetti)
+	large elbows (elbow)
+
+Missed [0]:
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:35:17.244490
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+small shells
+large elbows
+spaghetti
+}
+
+Identified [3]:
+	small shells (shell)
+	spaghetti (spaghetti)
+	large elbows (elbow)
+
+Missed [0]:
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:35:08.384934
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+spaghetti
+large elbows
+small shells
+}
+
+Identified [3]:
+	small shells (shell)
+	spaghetti (spaghetti)
+	large elbows (elbow)
+
+Missed [0]:
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:34:59.171563
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+small shells
+large elbows
+spaghetti
+}
+
+Identified [3]:
+	small shells (shell)
+	spaghetti (spaghetti)
+	large elbows (elbow)
+
+Missed [0]:
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 19:34:48.868962
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 small shells

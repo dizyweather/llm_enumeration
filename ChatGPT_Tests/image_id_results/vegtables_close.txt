@@ -1,36 +1,34 @@
-Time: 2024-07-17 19:51:56.924726
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
-Response: 
-{
-ginger root
-brussels sprouts
-shallots
-garlic
-tomatoes
-}
-
-Identified [4]:
-	ginger root (ginger)
-	shallots (shallot)
-	garlic (garlic)
-	tomatoes (tomato)
-
-Missed [2]:
-	avocado
-	tomatillo
-
-Unsure [1]:
-	brussels sprouts
-
----------------------------------------------------
-
-Time: 2024-07-17 19:52:06.365344
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 20:16:50.995890
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 ginger
-avocados
-brussel sprouts
+tomatillo
+shallot
+garlic
+tomato
+}
+
+Identified [5]:
+	ginger (ginger)
+	shallot (shallot)
+	garlic (garlic)
+	tomato (tomato)
+	tomatillo (tomatillo)
+
+Missed [1]:
+	avocado
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:16:40.246015
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+ginger
+tomatillos
 shallots
 garlic
 tomatoes
@@ -41,22 +39,125 @@ Identified [5]:
 	shallots (shallot)
 	garlic (garlic)
 	tomatoes (tomato)
-	avocados (avocado)
+	tomatillos (tomatillo)
 
 Missed [1]:
-	tomatillo
+	avocado
 
-Unsure [1]:
-	brussel sprouts
+Unsure [0]:
 
 ---------------------------------------------------
 
-Time: 2024-07-17 19:52:15.463964
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 20:16:31.012722
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+avocados
+ginger root
+tomatillos
+shallots
+garlic
+tomatoes
+}
+
+Identified [6]:
+	ginger root (ginger)
+	shallots (shallot)
+	garlic (garlic)
+	tomatoes (tomato)
+	avocados (avocado)
+	tomatillos (tomatillo)
+
+Missed [0]:
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:16:21.349128
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+ginger root
+green tomatoes
+shallots
+garlic
+tomatoes
+}
+
+Identified [5]:
+	ginger root (ginger)
+	shallots (shallot)
+	garlic (garlic)
+	green tomatoes (tomato)
+	tomatoes (tomato)
+
+Missed [2]:
+	avocado
+	tomatillo
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:16:12.460589
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 ginger
+shallots
+garlic
+tomatillo
+tomato
+}
+
+Identified [5]:
+	ginger (ginger)
+	shallots (shallot)
+	garlic (garlic)
+	tomato (tomato)
+	tomatillo (tomatillo)
+
+Missed [1]:
+	avocado
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:16:03.705861
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+ginger root
+green vegetables
+onions
+garlic
+tomatoes
+}
+
+Identified [3]:
+	ginger root (ginger)
+	garlic (garlic)
+	tomatoes (tomato)
+
+Missed [3]:
+	shallot
+	avocado
+	tomatillo
+
+Unsure [2]:
+	green vegetables
+	onions
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:15:53.347490
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
 avocados
+ginger
 tomatillos
 shallots
 garlic
@@ -72,6 +173,81 @@ Identified [6]:
 	tomatillos (tomatillo)
 
 Missed [0]:
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:15:44.207017
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+ginger
+tomatillo
+shallot
+garlic
+tomato
+}
+
+Identified [5]:
+	ginger (ginger)
+	shallot (shallot)
+	garlic (garlic)
+	tomato (tomato)
+	tomatillo (tomatillo)
+
+Missed [1]:
+	avocado
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:15:34.853084
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+ginger root
+tomatillos
+shallots
+garlic
+tomatoes
+}
+
+Identified [5]:
+	ginger root (ginger)
+	shallots (shallot)
+	garlic (garlic)
+	tomatoes (tomato)
+	tomatillos (tomatillo)
+
+Missed [1]:
+	avocado
+
+Unsure [0]:
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:15:26.908080
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+ginger
+tomatillos
+shallots
+garlic
+tomatoes
+}
+
+Identified [5]:
+	ginger (ginger)
+	shallots (shallot)
+	garlic (garlic)
+	tomatoes (tomato)
+	tomatillos (tomatillo)
+
+Missed [1]:
+	avocado
 
 Unsure [0]:
 

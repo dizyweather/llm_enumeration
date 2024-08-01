@@ -1,17 +1,32 @@
 Identified
-	lemons (lemon) [3]
-	grapefruits (grapefruit) [2]
-	peaches (peach) [3]
-	plums (plum) [3]
-	grapefruit (grapefruit) [1]
-	--Sum [12]--
+	lemons (lemon) [8]
+	grapefruits (grapefruit) [5]
+	peaches (peach) [9]
+	plums (plum) [8]
+	grapefruit (grapefruit) [3]
+	oranges (orange) [4]
+	yellow grapefruit (grapefruit) [1]
+	white peaches (peach) [1]
+	yellow peaches (peach) [1]
+	apricots (apricot) [3]
+	--Sum [43]--
+nectarines [8]
+lettuce [1]
+carrots [1]
+apples [6]
+pink nectarines [1]
+red apples [1]
 
 Missed
-	orange [3]
-	apricot [3]
-	--Sum [6]--
+	orange [6]
+	apricot [7]
+	lemon [2]
+	plum [2]
+	grapefruit [1]
+	--Sum [18]--
 
 Unsure
-	nectarines [2]
-	apples [2]
-	--Sum [4]--
+	potatoes [1]
+	pluots [1]
+	mangoes [1]
+	--Sum [21]--

@@ -1,13 +1,15 @@
-Time: 2024-07-17 19:50:30.354158
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 20:12:19.355605
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 plums
 peaches
 nectarines
 grapefruits
-apples
 lemons
+lettuce
+carrots
+potatoes
 }
 
 Identified [4]:
@@ -20,27 +22,116 @@ Missed [2]:
 	orange
 	apricot
 
-Unsure [2]:
+Unsure [4]:
 	nectarines
+	lettuce
+	carrots
+	potatoes
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:12:09.506346
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+plums  
+peaches  
+apples  
+oranges  
+grapefruit  
+}
+
+Identified [4]:
+	grapefruit (grapefruit)
+	oranges (orange)
+	peaches (peach)
+	plums (plum)
+
+Missed [2]:
+	lemon
+	apricot
+
+Unsure [1]:
 	apples
 
 ---------------------------------------------------
 
-Time: 2024-07-17 19:50:41.101744
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 20:12:01.157173
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 plums
-peaches 
+white peaches
+yellow peaches
+nectarines
+pink nectarines
+red apples
+yellow grapefruit
+lemons
+}
+
+Identified [5]:
+	lemons (lemon)
+	yellow grapefruit (grapefruit)
+	white peaches (peach)
+	yellow peaches (peach)
+	plums (plum)
+
+Missed [2]:
+	orange
+	apricot
+
+Unsure [3]:
+	nectarines
+	pink nectarines
+	red apples
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:11:51.596407
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+plums
+peaches
+apricots
 nectarines
 apples
 grapefruit
 lemons
 }
 
-Identified [4]:
+Identified [5]:
 	lemons (lemon)
 	grapefruit (grapefruit)
+	peaches (peach)
+	plums (plum)
+	apricots (apricot)
+
+Missed [1]:
+	orange
+
+Unsure [2]:
+	nectarines
+	apples
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:11:42.323080
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+plums
+peaches
+apples
+nectarines
+lemons
+grapefruits
+}
+
+Identified [4]:
+	lemons (lemon)
+	grapefruits (grapefruit)
 	peaches (peach)
 	plums (plum)
 
@@ -49,18 +140,18 @@ Missed [2]:
 	apricot
 
 Unsure [2]:
-	nectarines
 	apples
+	nectarines
 
 ---------------------------------------------------
 
-Time: 2024-07-17 19:50:51.153428
-Question: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Time: 2024-07-27 20:11:31.671317
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
 Response: 
 {
 plums
-peaches
 nectarines
+peaches
 apples
 grapefruits
 lemons
@@ -79,6 +170,119 @@ Missed [2]:
 Unsure [2]:
 	nectarines
 	apples
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:11:22.248077
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+pluots
+nectarines
+peaches
+apricots
+plums
+grapefruit
+lemons
+apples
+}
+
+Identified [5]:
+	lemons (lemon)
+	grapefruit (grapefruit)
+	peaches (peach)
+	plums (plum)
+	apricots (apricot)
+
+Missed [1]:
+	orange
+
+Unsure [3]:
+	pluots
+	nectarines
+	apples
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:11:13.654424
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+apples
+peaches
+nectarines
+oranges
+grapefruits
+}
+
+Identified [3]:
+	grapefruits (grapefruit)
+	oranges (orange)
+	peaches (peach)
+
+Missed [3]:
+	lemon
+	plum
+	apricot
+
+Unsure [2]:
+	apples
+	nectarines
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:11:04.809627
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+nectarines
+mangoes
+oranges
+peaches
+lemons
+grapefruits
+}
+
+Identified [4]:
+	lemons (lemon)
+	grapefruits (grapefruit)
+	oranges (orange)
+	peaches (peach)
+
+Missed [2]:
+	plum
+	apricot
+
+Unsure [2]:
+	nectarines
+	mangoes
+
+---------------------------------------------------
+
+Time: 2024-07-27 20:10:54.939307
+Prompt: What items are in the image? Ignore branding and numbers. Return answers in the form of words seperated by new lines and all lowercase.
+Response: 
+{
+plums
+peaches
+apricots
+nectarines
+oranges
+lemons
+}
+
+Identified [5]:
+	lemons (lemon)
+	oranges (orange)
+	peaches (peach)
+	plums (plum)
+	apricots (apricot)
+
+Missed [1]:
+	grapefruit
+
+Unsure [1]:
+	nectarines
 
 ---------------------------------------------------
 
